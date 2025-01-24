@@ -8,7 +8,7 @@ using UnityEngine;
 // 해당 컴포넌트가 없는 오브젝트에 적용할 경우 자동으로 생성
 //이 스크립트를 연결한 상태라면, 대상 컴포넌트 삭제 불가  
 
-[RequireComponent (typeof(Rigidbody2D))]
+[RequireComponent(typeof(Rigidbody2D))]
 public class PlayerMoveMnet : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -41,7 +41,7 @@ public class PlayerMoveMnet : MonoBehaviour
             if (!isJump)
             {
                 isJump = true;
-                rigid.AddForce(Vector3.up* (float)jumpForce,ForceMode2D.Impulse);
+                rigid.AddForce(Vector3.up * (float)jumpForce, ForceMode2D.Impulse);
             }
         }
     }
@@ -51,15 +51,15 @@ public class PlayerMoveMnet : MonoBehaviour
         float x = Input.GetAxisRaw("Horizontal");
         float y = Input.GetAxisRaw("Vertical");
 
-        Vector3 velocity = new Vector3(x, y, 0) * speed *Time.deltaTime;
+        Vector3 velocity = new Vector3(x, y, 0) * speed * Time.deltaTime;
 
         transform.position += velocity;
 
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
-    {   if(collision.gameObject.tag=="Finish")
-        Debug.Log("goal");
+    { if (collision.gameObject.tag == "Finish")
+            Debug.Log("goal");
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -71,5 +71,8 @@ public class PlayerMoveMnet : MonoBehaviour
         }
         Debug.Log("t");
     }
+
+ 
+
 
 }
