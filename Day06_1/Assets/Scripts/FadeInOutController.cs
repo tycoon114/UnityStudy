@@ -4,6 +4,9 @@ using UnityEngine;
 public class FadeInOutController : MonoBehaviour
 {
     Renderer MyRend;
+
+    private Canvas Canvas;
+
     void Start()
     {
         MyRend = gameObject.GetComponent<Renderer>();   
