@@ -11,6 +11,7 @@ public class ObjectGenerator : MonoBehaviour
     public float power = 1000.0f;
     GameObject scoreText; // Á¡¼ö 
     public int score = 0;
+    GameObject MetaerialC;
 
 
     /// <summary>
@@ -20,7 +21,7 @@ public class ObjectGenerator : MonoBehaviour
     /// 
     private void Start()
     {
-
+        MetaerialC = GameObject.Find("Meterial Change");
         scoreText = GameObject.Find("Score");
 
     }
@@ -28,6 +29,7 @@ public class ObjectGenerator : MonoBehaviour
     {
         score += value;
         SetScoreText();
+        MetaerialC.GetComponent<MertaerialChange>().skyChange(score);
     }
 
     void SetScoreText() {
