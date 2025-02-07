@@ -52,8 +52,39 @@ Rolloff Mods - 그래프 설정
 		2. 선형 그래프 : 거리에 따라 일정하게 사운드가 변화
 		3. 커스텀 그래프 : 직접 조절
 
+오디오 믹서 - 오디오소스에 대한 제어, 균형, 조정을 제공하는 도구
+
+믹서 만드는 방법 Create -> Audio -> AudioMixer 를 통해 AudioGroup 생성
+
+최초 생성시 Master 그룹이 존재
 
 
+
+        //자주 사용되는 Mathf함수
+        //1. Mathf.Deg2Rad
+        // degree(60분법)을 통해 radian(호도법)을 계산 --> 각도 계산, PI / 180, Pi *2/ 360
+        //2. Mathf.Rad2Deg 
+        // 라디안 값을 디그리 값으로, 360/(pi *2), 1라디안은 약 57도
+        //3. Mathf.Abs
+        //절대값을 계산해주는 기능
+        //4.Mathf.Atan
+        //아크 탄젠트 값을 계산
+        //5. Mathf.Ceil
+        //소수점 올림 계산
+        //6 Mathf.Clamp(value,min,max)
+        // value를 min과 max 사이의 값으로 고정
+        //7 Mathf.log10
+        //베이스가 10으로 지정되어있는 수의 로그를 반환해주는 기능
+
+유니티 에디터에서 GUI를 보여주는 시스템
+IMGUI - 디버그에서 사용
+
+UGUI - 일반적으로 사용하는 UI도구
+ 
+UIElements - 에디터 기반으로 진행하는 도구
+
+
+------------------------------------
 readmeTest
 >1
 >>2
