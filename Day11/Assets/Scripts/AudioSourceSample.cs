@@ -1,4 +1,7 @@
+using System.Collections;
+using System.Runtime.InteropServices;
 using UnityEngine;
+using UnityEngine.Networking;
 using UnityEngine.UI;
 
 public class AudioSourceSample : MonoBehaviour
@@ -35,6 +38,8 @@ public class AudioSourceSample : MonoBehaviour
         //리소스 로드 시 작성하는 이름에는 확장자명을 작성하지 않음
         audioSourceSFX.clip = Resources.Load("Audio/BombCharge") as AudioClip;
 
+        //UnityWebRequest의 GetAudioClip 기능 활용
+        StartCoroutine("GetAudioClip");
 
         audioSourceBgm.Play(); // 실행
         //audioSourceBgm.Pause(); // 일시정지
@@ -44,8 +49,18 @@ public class AudioSourceSample : MonoBehaviour
         //audioSourceBgm.PlayDelayed(1.0f); // 1초 뒤에 재생, 재생에 딜레이를 설정
     }
 
+    //이 방식으로 호출하면,작업이 끝나면 값이 사라짐
+    IEnumerator GetAudioClip() {
 
+        UnityWebRequest uwr = UnityWebRequestMultimedia.GetAudioClip("file:///"+Application.dataPath + "/Audio"+ "/Explosion" + ".wav", AudioType.WAV);
+        yield return uwr.SendWebRequest();
 
+        //받은 경로 기반 다운로드 진행
+        var newClip = DownloadHandlerAudioClip.GetContent(uwr);
+        
+        audioSourceBgm.clip = newClip;
+        audioSourceBgm.Play();
+    }
 
     // Update is called once per frame
     void Update()
