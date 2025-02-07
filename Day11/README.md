@@ -65,9 +65,9 @@ readmeTest
 ~~999~~
 
 
-*2025-02-07
-	*aaa
- 		*aasdf
++2025-02-07
+ +aaa
+  +aaaasdf
 
 
 -2025-02-07
