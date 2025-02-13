@@ -899,6 +899,8 @@ MonoBehaviour:
   QuestPanel: {fileID: 116563496}
   NextButton: {fileID: 2031363661}
   NpcImage: {fileID: 1216492673}
+  YesButton: {fileID: 1928258405}
+  ContextIndex: 0
 --- !u!4 &930907632
 Transform:
   m_ObjectHideFlags: 0

@@ -13,8 +13,9 @@ public class RealQuest :MonoBehaviour
     public RawImage NpcImage;
     public Button YesButton;
 
-
     public Queue<string> QuestDialog = new Queue<string>();
+
+    public Queue<string> YourDialog = new Queue<string>();
 
 
 
@@ -38,11 +39,20 @@ public class RealQuest :MonoBehaviour
         NpcImage.gameObject.SetActive(true);
         NextButton.gameObject.SetActive(true);
         QuestContext.gameObject.SetActive(true);
+        
     }
 
     public void OnButtonClick() {
+
+
         QuestContext.GetComponent<TextMeshProUGUI>().text = QuestDialog.Peek();
         QuestDialog.Dequeue();
+
+        if (QuestDialog.Count == 0)
+        {
+            NextButton.interactable = false;
+            YesButton.gameObject.SetActive(true);
+        }
     }
 
 
