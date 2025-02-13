@@ -11,6 +11,7 @@ class MeetEvent {
 
     public void Meet() {
         Debug.Log("µà¾ó °³½Ã");
+        
     }
 
 }
@@ -18,6 +19,7 @@ class MeetEvent {
 public class UnityDeleSample : MonoBehaviour
 {
     public Text messageUI;
+    
     MeetEvent meetEvent = new MeetEvent();
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -28,7 +30,7 @@ public class UnityDeleSample : MonoBehaviour
 
     private void EventMessage(string message)
     {
-        //Debug.Log(message);
+        Debug.Log(message);
         messageUI.text = message;
     }
 
