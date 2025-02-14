@@ -17,21 +17,16 @@ public class RealQuest :MonoBehaviour
 
     public Queue<string> YourDialog = new Queue<string>();
 
-
-
     private void Start()
     {
-
         QuestPanel.gameObject.SetActive(false);
         QuestContext.gameObject.SetActive(false);
         NpcImage.gameObject.SetActive(false);
         NextButton.gameObject.SetActive(false);
         YesButton.gameObject.SetActive(false);
 
-
         QuestDialog.Enqueue("Äù½ºÆ® 1 µî·Ï");
         QuestDialog.Enqueue("Äù½ºÆ® 2 µî·Ï");
-
     }
 
     public void ShowQuest() {
@@ -43,8 +38,6 @@ public class RealQuest :MonoBehaviour
     }
 
     public void OnButtonClick() {
-
-
         QuestContext.GetComponent<TextMeshProUGUI>().text = QuestDialog.Peek();
         QuestDialog.Dequeue();
 
