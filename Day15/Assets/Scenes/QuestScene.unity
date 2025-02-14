@@ -512,11 +512,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1137213696541568816, guid: c4edcca392c180e4a9e231da49a8f094, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4950444107567379690, guid: c4edcca392c180e4a9e231da49a8f094, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: c4edcca392c180e4a9e231da49a8f094, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: fe48ded00f273e942803c49889d70c24, type: 3}
+    - target: {fileID: 5866666021909216657, guid: c4edcca392c180e4a9e231da49a8f094, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 19a04d0fc2535fd479d62f209cb1a2f1, type: 2}
+    - target: {fileID: 5866666021909216657, guid: c4edcca392c180e4a9e231da49a8f094, type: 3}
+      propertyPath: m_WarningMessage
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
