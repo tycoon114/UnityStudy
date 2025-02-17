@@ -3,7 +3,7 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
     public Transform target; // 따라갈 캐릭터
-    public Vector3 offset = new Vector3(0, 1.6f, -1.6f); // 카메라 위치 조정
+    public Vector3 offset = new Vector3(0, 2.0f, -4.0f); // 카메라 위치 조정
     public float smoothSpeed = 5f; // 부드러운 이동 속도
 
     void LateUpdate()
