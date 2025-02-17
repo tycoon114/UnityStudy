@@ -2,6 +2,18 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+
+    public enum PlayerState 
+    {
+        Idle,
+        Move,
+        Attack,
+        Dead
+    }
+
+    public PlayerState _state;
+
+
     public float speed = 5f;       // 이동 속도
     public float gravity = -9.81f; // 중력 값
 
@@ -11,6 +23,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         controller = GetComponent<CharacterController>();
+        _state = PlayerState.Idle;
     }
 
     void Update()

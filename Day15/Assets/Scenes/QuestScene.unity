@@ -588,6 +588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aac740afd6576754dbcea0884dab8575, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _state: 0
   speed: 5
   gravity: -9.81
 --- !u!1 &619208790
@@ -1400,6 +1401,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Npc
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 9165f578544e2a84eb48ef2dbdd351b9, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 552da06e015d3b349a92ec287acf5eee, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1410,6 +1415,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9165f578544e2a84eb48ef2dbdd351b9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1699092604}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9165f578544e2a84eb48ef2dbdd351b9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1699092607}
   m_SourcePrefab: {fileID: 100100000, guid: 9165f578544e2a84eb48ef2dbdd351b9, type: 3}
 --- !u!1 &1699092600 stripped
 GameObject:
@@ -1451,6 +1459,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   QuestText: {fileID: 427729632}
   realQuest: {fileID: 930907631}
+--- !u!114 &1699092607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699092600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 714ce2b4cd0ca7446af725c880219330, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1752490383
 GameObject:
   m_ObjectHideFlags: 0
