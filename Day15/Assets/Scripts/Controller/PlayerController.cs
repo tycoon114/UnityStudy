@@ -31,15 +31,19 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        float moveX = Input.GetAxis("Horizontal"); // A, D 또는 좌우 화살표
-        float moveZ = Input.GetAxis("Vertical");   // W, S 또는 상하 화살표
+        float horizontal = Input.GetAxis("Horizontal"); // A, D 또는 좌우 화살표
+        float vertical = Input.GetAxis("Vertical");   // W, S 또는 상하 화살표
 
-        Vector3 move = transform.right * moveX + transform.forward * moveZ;
+        Vector3 move = transform.right * horizontal + transform.forward * vertical;
         controller.Move(move * speed * Time.deltaTime); // 이동 처리
+
+
+
 
         if (move != Vector3.zero)
         {
             // 진행 방향으로 캐릭터 회전
+            transform.rotation = Quaternion.Euler(0, Mathf.Atan2(horizontal, vertical) * Mathf.Rad2Deg, 0);
             anim.SetBool("IsMove", true);
         }
         else
@@ -47,7 +51,6 @@ public class PlayerController : MonoBehaviour
             anim.SetBool("IsMoveEnd", true);
             anim.SetBool("IsMove", false);
         }
-
 
 
         // 중력 적용
