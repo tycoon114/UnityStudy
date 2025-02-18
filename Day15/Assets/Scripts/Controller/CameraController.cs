@@ -2,21 +2,47 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    public Transform target; // 따라갈 캐릭터
     public Vector3 offset = new Vector3(0, 2.0f, -4.0f); // 카메라 위치 조정
     public float smoothSpeed = 5f; // 부드러운 이동 속도
+    public Transform player; // 플레이어 캐릭터
+    public float sensitivity = 2.0f; // 마우스 감도
+    public float zoomFOV = 20f; // 줌 시 FOV
+    public float normalFOV = 40f; // 기본 FOV
 
-    void LateUpdate()
+    private float pitch = 0f; // 위아래 회전
+    private float yaw = 0f; // 좌우 회전
+    private Camera cam;
+
+    void Start()
     {
-        if (target == null) return;
+        cam = Camera.main;
+        Cursor.lockState = CursorLockMode.Locked; // 마우스 잠금
+        Cursor.visible = false;
+    }
 
-        // 목표 위치 계산
-        Vector3 desiredPosition = target.position + offset;
+    void Update()
+    {
+        //// 목표 위치 계산
+        Vector3 desiredPosition = player.position + offset;
 
-        // 부드럽게 이동
+        //// 부드럽게 이동
         transform.position = Vector3.Lerp(transform.position, desiredPosition, Time.deltaTime * smoothSpeed);
 
-        // 항상 캐릭터를 바라보게 설정
-        transform.LookAt(target);
+        //// 항상 캐릭터를 바라보게 설정
+        //transform.LookAt(target);
+
+        yaw += Input.GetAxis("Mouse X") * sensitivity;
+        pitch -= Input.GetAxis("Mouse Y") * sensitivity;
+        pitch = Mathf.Clamp(pitch, -30f, 60f); // 위아래 각도 제한
+
+        // 카메라 위치 및 회전 적용
+        Quaternion rotation = Quaternion.Euler(pitch, yaw, 0);
+        transform.position = player.position + rotation * offset;
+        transform.LookAt(player.position);
+
+        // 우클릭 시 줌 (FOV 조절)
+        float targetFOV = Input.GetMouseButton(1) ? zoomFOV : normalFOV;
+        cam.fieldOfView = Mathf.MoveTowards(cam.fieldOfView, targetFOV, Time.deltaTime * 100f); // 더 빠르게 줌 적용
+
     }
 }

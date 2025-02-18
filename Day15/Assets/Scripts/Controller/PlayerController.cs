@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 
-    public enum PlayerState 
+    public enum PlayerState
     {
         Idle,
         Move,
@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
 
 
     public float speed = 5f;       // 이동 속도
-    public float gravity = 9.81f; // 중력 값
+    public float gravity = -9.81f; // 중력 값
     public float jumpSpeed = 3.0f;
 
     private CharacterController controller;
@@ -36,20 +36,27 @@ public class PlayerController : MonoBehaviour
 
         Vector3 move = transform.right * moveX + transform.forward * moveZ;
         controller.Move(move * speed * Time.deltaTime); // 이동 처리
+
         if (move != Vector3.zero)
         {
             // 진행 방향으로 캐릭터 회전
             anim.SetBool("IsMove", true);
         }
         else
+        {
             anim.SetBool("IsMoveEnd", true);
+            anim.SetBool("IsMove", false);
+        }
+
+
 
         // 중력 적용
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
 
         //점프 하는 중에 점프는 불가능, 하지만 이동은 가능
-        if (controller.isGrounded) {
+        if (controller.isGrounded)
+        {
             if (Input.GetKeyDown(KeyCode.Space))
                 velocity.y = 7.5f;
         }
