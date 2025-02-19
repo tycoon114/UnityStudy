@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using static UnityEngine.Rendering.DebugUI;
 
@@ -9,6 +10,11 @@ public class Spawner : MonoBehaviour
     public float monsterSpawnTime;
     public float summonRate = 5.0f; //해당 수치를 수정할 경우 생성되는 영역 (구)의 위치값이 넓어진다.
     public float reRate = 2.0f;     //생성 위치를 기준으로 생성되는 영역을 설정할 수 있다.
+
+
+    public static List<Monster> monsterList = new List<Monster>();
+
+    public static List<Player> playerList = new List<Player>(); 
 
     void Start()
     {
@@ -67,6 +73,7 @@ public class Spawner : MonoBehaviour
                result.GetComponent<Monster>().MonsterSample();
                 result.transform.position = pos;
                 result.transform.LookAt(Vector3.zero);
+                monsterList.Add(result.GetComponent<Monster>());
             }); 
             StartCoroutine(ReturnMonsterPooling(go));
         }
