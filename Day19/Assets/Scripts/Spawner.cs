@@ -12,7 +12,7 @@ public class Spawner : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine("SpawnMonster");
+        StartCoroutine("SpawnMonsterPooling");
     }
 
 
@@ -62,13 +62,24 @@ public class Spawner : MonoBehaviour
             //var go = BaseManager.POOL.PoolObject("Monster").GetGameObject();
 
             //오브젝트 명을 가진 오브젝트를 풀링 기법으로 소환, 전달할 함수가 있는 경우
-            var go = BaseManager.POOL.PoolObject("Monster").GetGameObject((x) =>
+            var go = BaseManager.POOL.PoolObject("Monster").GetGameObject((result) =>
             {
-                x.GetComponent<Monster>().MonsterSample();
-            });
+               result.GetComponent<Monster>().MonsterSample();
+                result.transform.position = pos;
+                result.transform.LookAt(Vector3.zero);
+            }); 
+            StartCoroutine(ReturnMonsterPooling(go));
         }
+       
+
+
         yield return new WaitForSeconds(monsterSpawnTime);
-        StartCoroutine("SpawnMonster");
+        StartCoroutine("SpawnMonsterPooling");
+    }
+
+    IEnumerator ReturnMonsterPooling(GameObject ob) {
+        yield return new WaitForSeconds(1.0f);
+        BaseManager.POOL.poolDicionary["Monster"].ObjectReturn(ob);
     }
 
 

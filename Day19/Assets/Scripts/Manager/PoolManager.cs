@@ -51,20 +51,27 @@ public class ObjectPool : IPool
 
 }
 
-public class PoolManager : MonoBehaviour
+public class PoolManager
 {
     public Dictionary<string, IPool> poolDicionary = new Dictionary<string, IPool>();
 
     public IPool PoolObject(string path)
     {
         //해당 키가 없다면 추가
-        if (poolDicionary.ContainsKey(path) == false)
+        if (!poolDicionary.ContainsKey(path))
         {
             Add(path);
         }
-        //딕셔너리명[키] = 값
+
+        if (poolDicionary[path].pool.Count <= 0)
+        {
+            AddQ(path);
+        }
         return poolDicionary[path];
     }
+
+
+
 
     public GameObject Add(string path)
     {

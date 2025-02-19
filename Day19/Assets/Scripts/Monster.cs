@@ -2,25 +2,22 @@ using System;
 using UnityEngine;
 
 
-[RequireComponent(typeof(Animator))]
-public class Monster : MonoBehaviour
+public class Monster : Character
 {
     public float monsterSpeed;
 
     public float rate = 0.5f;
 
-    Animator animator;
+
+    protected override void Start()
+    {
+        base.Start();
+    }
 
     //action 테스트
     public void MonsterSample()
     {
         Debug.Log("생성");
-    }
-
-
-    void Start()
-    {
-        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -40,17 +37,7 @@ public class Monster : MonoBehaviour
         {
             SetMotionChange("isMOVE", true);
         }
-
-
-
         //영점으로, 몬스터의 속도만큼 앞으로 이동
         transform.position = Vector3.MoveTowards(transform.position, Vector3.zero, Time.deltaTime * monsterSpeed);
-
-
-    }
-
-    private void SetMotionChange(string motionName, bool param)
-    {
-        animator.SetBool(motionName, param);
     }
 }
