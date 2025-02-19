@@ -23,6 +23,12 @@ public class Character : MonoBehaviour
         animator.SetBool(motionName, param);
     }
 
+    //애니메이션 이벤트가 호출할 함수
+    protected virtual void Shoot() {
+        Debug.Log("aaaaa");
+    }
+
+
     protected Transform target;
 
 

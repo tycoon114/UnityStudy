@@ -229,7 +229,7 @@ AnimatorStateMachine:
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: 270, y: -60, z: 0}
+  m_AnyStatePosition: {x: 180, y: -20, z: 0}
   m_EntryPosition: {x: 280, y: 60, z: 0}
   m_ExitPosition: {x: 810, y: 170, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
@@ -320,8 +320,8 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: isIDLE
+  - m_ConditionMode: 2
+    m_ConditionEvent: isATTACK
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -5178111436080647427}
