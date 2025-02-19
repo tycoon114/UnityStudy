@@ -611,7 +611,7 @@ MonoBehaviour:
   monsterCount: 10
   monsterSpawnTime: 10
   summonRate: 5
-  reRate: 5
+  reRate: 2
 --- !u!4 &1556392948
 Transform:
   m_ObjectHideFlags: 0
