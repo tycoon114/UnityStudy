@@ -27,12 +27,28 @@ public class ObjectPool : IPool
         var obj = pool.Dequeue();
 
         obj.SetActive(true);
+        if (action != null)
+        {
+            action?.Invoke(obj);
+        }
+        return obj;
     }
 
     public void ObjectReturn(GameObject gameObject, Action<GameObject> action = null)
     {
-        throw new NotImplementedException();
+        pool.Enqueue(gameObject);
+        gameObject.transform.parent = parent;
+        gameObject.SetActive(false);
+
+        //액션으로 전달받은 값이 있다면?
+        if (action != null)
+        {
+            action?.Invoke(gameObject);
+            //전달받은 액션을 실행합니다.
+            //?는 null에 대한 설정
+        }
     }
+
 }
 
 public class PoolManager : MonoBehaviour
@@ -66,6 +82,14 @@ public class PoolManager : MonoBehaviour
 
         return obj;
 
+    }
+
+    public void AddQ(string path)
+    {
+        var go = BaseManager.instance.CreateFormPath(path);
+        go.transform.parent = poolDicionary[path].parent;
+
+        poolDicionary[path].ObjectReturn(go);
     }
 
 }

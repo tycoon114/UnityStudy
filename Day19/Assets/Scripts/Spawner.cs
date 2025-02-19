@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using static UnityEngine.Rendering.DebugUI;
 
 public class Spawner : MonoBehaviour
 {
@@ -14,10 +15,6 @@ public class Spawner : MonoBehaviour
         StartCoroutine("SpawnMonster");
     }
 
-    //action 테스트
-    void MonsterSample() {
-        Debug.Log("생성");
-    }
 
     //일반적인 생성 방법
     IEnumerator SpawnMonster()
@@ -61,9 +58,14 @@ public class Spawner : MonoBehaviour
                 pos = Vector3.zero + Random.insideUnitSphere * summonRate;
                 pos.y = 0.0f;
             }
+            //전달할 함수가 없는경우
+            //var go = BaseManager.POOL.PoolObject("Monster").GetGameObject();
 
-            //오브젝트 명을 가진 오브젝트를 풀링 기법으로 소환
-            var go = BaseManager.POOL.PoolObject("Slime").GetGameObject();
+            //오브젝트 명을 가진 오브젝트를 풀링 기법으로 소환, 전달할 함수가 있는 경우
+            var go = BaseManager.POOL.PoolObject("Monster").GetGameObject((x) =>
+            {
+                x.GetComponent<Monster>().MonsterSample();
+            });
         }
         yield return new WaitForSeconds(monsterSpawnTime);
         StartCoroutine("SpawnMonster");

@@ -10,6 +10,14 @@ public class Monster : MonoBehaviour
     public float rate = 0.5f;
 
     Animator animator;
+
+    //action 테스트
+    public void MonsterSample()
+    {
+        Debug.Log("생성");
+    }
+
+
     void Start()
     {
         animator = GetComponent<Animator>();

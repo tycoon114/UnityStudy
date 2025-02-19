@@ -36,4 +36,11 @@ public class BaseManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+
+    //리소스 폴더 필요
+    public GameObject CreateFormPath(string path) { 
+        return Instantiate(Resources.Load<GameObject>(path));
+    }
+
 }
