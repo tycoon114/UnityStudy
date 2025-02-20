@@ -488,6 +488,7 @@ GameObject:
   - component: {fileID: 1904926035}
   - component: {fileID: 1904926034}
   - component: {fileID: 1904926033}
+  - component: {fileID: 1904926036}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -598,7 +599,7 @@ Rigidbody2D:
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: bfc316ed190204a4a88e90b0994acac1, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -643,9 +644,31 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0.9}
-  m_Size: {x: 1.8, y: 1.8}
+  m_Offset: {x: -0.039763927, y: 0.9}
+  m_Size: {x: 1.012496, y: 1.8}
   m_Direction: 0
+--- !u!95 &1904926036
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904926030}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 46f589b5029902f4ea136218d66d3465, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1916243910
 GameObject:
   m_ObjectHideFlags: 0
@@ -1108,11 +1131,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3119374064752043895, guid: e2d855bb3fcb44c4eb6d1e98b1b233c2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.39
+      value: 1.5592703
       objectReference: {fileID: 0}
     - target: {fileID: 3119374064752043895, guid: e2d855bb3fcb44c4eb6d1e98b1b233c2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.27
+      value: -2.5956883
       objectReference: {fileID: 0}
     - target: {fileID: 3119374064752043895, guid: e2d855bb3fcb44c4eb6d1e98b1b233c2, type: 3}
       propertyPath: m_LocalPosition.z
