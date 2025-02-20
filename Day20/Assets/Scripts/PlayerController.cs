@@ -146,7 +146,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void GameOver()
+    public void GameOver()
     {
         animator.Play(Enum.GetName(typeof(ANIME_STATE), 2));
         state = "gameover";
