@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 3
   tags:
   - Arrow
+  - Exit
+  - Door
+  - Item
+  - Box
   layers:
   - Default
   - TransparentFX

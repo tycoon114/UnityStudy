@@ -16,8 +16,8 @@ public class CameraController : MonoBehaviour
     void Start()
     {
         cam = Camera.main;
-        Cursor.lockState = CursorLockMode.Locked; // 마우스 잠금
-        Cursor.visible = false;
+        //Cursor.lockState = CursorLockMode.Locked; // 마우스 잠금
+        //Cursor.visible = false;
     }
 
     void Update()
@@ -31,14 +31,14 @@ public class CameraController : MonoBehaviour
         //// 항상 캐릭터를 바라보게 설정
         transform.LookAt(player);
 
-        //yaw += Input.GetAxis("Mouse X") * sensitivity;
-        //pitch -= Input.GetAxis("Mouse Y") * sensitivity;
-        //pitch = Mathf.Clamp(pitch, -30f, 60f); // 위아래 각도 제한
+        yaw += Input.GetAxis("Mouse X") * sensitivity;
+        pitch -= Input.GetAxis("Mouse Y") * sensitivity;
+        pitch = Mathf.Clamp(pitch, -30f, 60f); // 위아래 각도 제한
 
-        //// 카메라 위치 및 회전 적용
-        //Quaternion rotation = Quaternion.Euler(pitch, yaw, 0);
-        //transform.position = player.position + rotation * offset;
-        //transform.LookAt(player.position);
+        // 카메라 위치 및 회전 적용
+        Quaternion rotation = Quaternion.Euler(pitch, yaw, 0);
+        transform.position = player.position + rotation * offset;
+        transform.LookAt(player.position);
 
         //// 우클릭 시 줌 (FOV 조절)
         //float targetFOV = Input.GetMouseButton(1) ? zoomFOV : normalFOV;

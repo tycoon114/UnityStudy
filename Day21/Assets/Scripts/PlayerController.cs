@@ -5,13 +5,16 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public static int hp = 3;
+    static bool inDamage = false;
+    string state;
 
     public float speed = 3.0f;
 
     public List<string> animeList = new List<string>
-    {"PlayerDown", "PlayerUp", "PlayerLeft","PlayerRight","PlayerDead" };
+    { "PlayerDown", "PlayerUp", "PlayerLeft","PlayerRight","PlayerDead" };
 
-    string current ="";
+    string current = "";
     string previous = "";
 
     float h, v;
@@ -25,6 +28,7 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        state = "playing";
         rBody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         previous = animeList[0];
@@ -33,7 +37,17 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isMove == false) {
+
+        if (state != "playing" || inDamage)
+        {
+            return;
+        }
+
+
+
+
+        if (isMove == false)
+        {
             h = Input.GetAxisRaw("Horizontal");
             v = Input.GetAxisRaw("Vertical");
 
@@ -45,17 +59,17 @@ public class PlayerController : MonoBehaviour
         z = GetAngle(from, to);
         //각도에 따라 방향과 애니메이션 설정
         //{"PlayerDown", "PlayerUp", "PlayerLeft","PlayerRight","PlayerDead"
-        if (z >= -45 && z < 45)
+        if (z > -45 && z <= 45)
         {
             //오른쪽
             current = animeList[3];
         }
-        else if (z >= 45 && z <= 135)
+        else if (z > 45 && z <= 135)
         {
             //위쪽
             current = animeList[1];
         }
-        else if (z >= -135 && z <= -45)
+        else if (z > 135 && z <= -45)
         {
             //아래쪽
             current = animeList[0];
@@ -73,8 +87,74 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void FixedUpdate() {
+    private void FixedUpdate()
+    {
+
+        if (state != "playing" || inDamage)
+        {
+            return;
+        }
+
+        if (inDamage)
+        {
+            float value = MathF.Sin(Time.time * 50);
+            if (value > 0)
+            {
+                GetComponent<SpriteRenderer>().enabled = true;
+            }
+            else {
+                GetComponent<SpriteRenderer>().enabled = false;
+            }
+            return;
+        }
+
         rBody.linearVelocity = new Vector2(h, v) * speed;
+    }
+
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Enemy") { 
+            GetDamage(collision.gameObject);
+        }
+    }
+
+    private void GetDamage(GameObject enemy)
+    {
+        if (state == "playing") {
+            hp--;
+            if (hp > 0)
+            {
+                rBody.linearVelocity = new Vector2(0, 0);
+
+                Vector3 to = (transform.position - enemy.transform.position).normalized;
+                rBody.AddForce(new Vector2(to.x * 4, to.y * 4), ForceMode2D.Impulse);
+                inDamage = true;
+
+                Invoke("OnDamageExit", 0.25f);
+            }
+            else {
+                GameOver();
+            }
+        
+        }
+    }
+
+    public void OnDamageExit() { 
+        inDamage = false;
+        GetComponent<SpriteRenderer>().enabled = true;
+    }
+
+    private void GameOver()
+    {
+        state = "gameover";
+        GetComponent<CircleCollider2D>().enabled = false;
+        rBody.linearVelocity = new Vector2(0, 0);
+        rBody.gravityScale = 1;
+        rBody.AddForce(new Vector2(0, 5), ForceMode2D.Impulse);
+        GetComponent<Animator>().Play(animeList[4]);
+        Destroy(gameObject, 1.0f);
+
     }
 
 
@@ -95,7 +175,8 @@ public class PlayerController : MonoBehaviour
             float radian = Mathf.Atan2(dy, dx);
             angle = radian * Mathf.Rad2Deg;
         }
-        else {
+        else
+        {
             angle = z;
         }
         return angle;
