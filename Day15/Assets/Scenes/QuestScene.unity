@@ -598,7 +598,7 @@ PrefabInstance:
     - target: {fileID: 5866666021909216657, guid: c4edcca392c180e4a9e231da49a8f094, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 19a04d0fc2535fd479d62f209cb1a2f1, type: 2}
+      objectReference: {fileID: 9100000, guid: a11fe53b236a72a4c8c2a9f1d6c8434f, type: 2}
     - target: {fileID: 5866666021909216657, guid: c4edcca392c180e4a9e231da49a8f094, type: 3}
       propertyPath: m_WarningMessage
       value: 
@@ -659,7 +659,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 605165218}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aac740afd6576754dbcea0884dab8575, type: 3}
   m_Name: 
@@ -675,7 +675,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 605165218}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dddf9bdcfd05fb14c9240843f459f49f, type: 3}
   m_Name: 

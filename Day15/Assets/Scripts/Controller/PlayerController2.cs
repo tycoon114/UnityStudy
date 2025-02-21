@@ -16,17 +16,28 @@ public class PlayerController2 : MonoBehaviour
 
     void Update()
     {
+  
+    }
+
+    private void FixedUpdate()
+    {
         // 입력 받기
-        float moveX = Input.GetAxis("Horizontal");
-        float moveZ = Input.GetAxis("Vertical");
+        float moveX = Input.GetAxisRaw("Horizontal");
+        float moveZ = Input.GetAxisRaw("Vertical");
 
         // 이동 벡터 설정
         Vector3 move = new Vector3(moveX, 0, moveZ).normalized;
 
-        // 이동 방향 설정
-        if (move.magnitude > 0)
+        // speed 값 즉각 반영 (키를 누르는 즉시 애니메이션 전환됨)
+        float speed = move.magnitude;
+
+        bool isMoving = move.magnitude > 0;
+        animator.SetBool("isMoving", isMoving);
+
+        // 이동 중이면 방향을 변경
+        if (isMoving)
         {
-            transform.forward = move; // 캐릭터가 이동 방향을 바라보도록 설정
+            transform.forward = move;
         }
 
         // 중력 적용
@@ -34,12 +45,14 @@ public class PlayerController2 : MonoBehaviour
         {
             moveDirection.y -= gravity * Time.deltaTime;
         }
+        else
+        {
+            moveDirection.y = 0; // 바닥에 닿으면 중력 초기화
+        }
 
         // 이동 처리
         moveDirection = move * moveSpeed;
         controller.Move(moveDirection * Time.deltaTime);
-
-        // 애니메이터 변수 업데이트
-        animator.SetFloat("speed", move.magnitude);
     }
+
 }
