@@ -705,7 +705,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c4edcca392c180e4a9e231da49a8f094, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.089
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c4edcca392c180e4a9e231da49a8f094, type: 3}
       propertyPath: m_LocalPosition.y
@@ -721,15 +721,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c4edcca392c180e4a9e231da49a8f094, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c4edcca392c180e4a9e231da49a8f094, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c4edcca392c180e4a9e231da49a8f094, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c4edcca392c180e4a9e231da49a8f094, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -6541,6 +6541,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   gravity: 9.8
+--- !u!4 &605165225 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c4edcca392c180e4a9e231da49a8f094, type: 3}
+  m_PrefabInstance: {fileID: 605165217}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &619208790
 GameObject:
   m_ObjectHideFlags: 0
@@ -6648,8 +6653,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   offset: {x: 0, y: 2, z: -0.81}
-  smoothSpeed: 3
-  player: {fileID: 1019250580}
+  cameraSpeed: 5
+  player: {fileID: 605165225}
   sensitivity: 2
   zoomFOV: 30
   normalFOV: 60
@@ -6955,11 +6960,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1019250580 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1101561296080092915, guid: 147df8e893d7c2d4ab38564e2e9a803e, type: 3}
-  m_PrefabInstance: {fileID: 5639874795566458692}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1025965831
 GameObject:
   m_ObjectHideFlags: 0
@@ -7398,7 +7398,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c4edcca392c180e4a9e231da49a8f094, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.7778661
+      value: -2.78
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c4edcca392c180e4a9e231da49a8f094, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7432,6 +7432,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shigure_Original
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: c4edcca392c180e4a9e231da49a8f094, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 54f402d291839fa4597626651a79f6df, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

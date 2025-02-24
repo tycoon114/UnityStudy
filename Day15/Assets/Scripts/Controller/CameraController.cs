@@ -3,7 +3,7 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
     public Vector3 offset = new Vector3(0, 2.0f, -4.0f); // 카메라 위치 조정
-    public float smoothSpeed = 5f; // 부드러운 이동 속도
+    public float cameraSpeed = 5f; // 부드러운 이동 속도
     public Transform player; // 플레이어 캐릭터
     public float sensitivity = 2.0f; // 마우스 감도
     public float zoomFOV = 20f; // 줌 시 FOV
@@ -20,16 +20,17 @@ public class CameraController : MonoBehaviour
         //Cursor.visible = false;
     }
 
-    void Update()
+    void FixedUpdate()
     {
         //// 목표 위치 계산
         Vector3 desiredPosition = player.position + offset;
 
         //// 부드럽게 이동
-        transform.position = Vector3.Lerp(transform.position, desiredPosition, Time.deltaTime * smoothSpeed);
+        transform.position = Vector3.Lerp(transform.position, desiredPosition, Time.deltaTime * cameraSpeed);
 
-        //// 항상 캐릭터를 바라보게 설정
-        transform.LookAt(player);
+        //// 항상 캐릭터를 바라보게 설정 
+        //따라 가게만 해야 되서 우선 주석 처리
+        //transform.LookAt(player);
 
         yaw += Input.GetAxis("Mouse X") * sensitivity;
         pitch -= Input.GetAxis("Mouse Y") * sensitivity;
