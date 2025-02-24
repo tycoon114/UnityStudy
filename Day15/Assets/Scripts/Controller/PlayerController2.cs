@@ -35,6 +35,7 @@ public class PlayerController2 : MonoBehaviour
         animator.SetBool("isMoving", isMoving);
 
         // 이동 중이면 방향을 변경
+        //여기서 뒤로 가는 경우 방향을 변경하지 않도록 해줘야됨
         if (isMoving)
         {
             transform.forward = move;
