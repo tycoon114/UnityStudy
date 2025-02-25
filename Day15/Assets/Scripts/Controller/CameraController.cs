@@ -7,7 +7,7 @@ public class CameraController : MonoBehaviour
     public Transform player; // 플레이어 캐릭터
     public float sensitivity = 2.0f; // 마우스 감도
     public float zoomFOV = 20f; // 줌 시 FOV
-    public float normalFOV = 40f; // 기본 FOV
+    public float normalFOV = 60f; // 기본 FOV
 
     private float pitch = 0f; // 위아래 회전
     private float yaw = 0f; // 좌우 회전
