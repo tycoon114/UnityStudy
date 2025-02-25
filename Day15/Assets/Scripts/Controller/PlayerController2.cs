@@ -108,8 +108,14 @@ public class PlayerController2 : MonoBehaviour
         }
         else if (moveDirection != Vector3.zero)// 이동 중이면 이동 방향으로 캐릭터 회전
         {
+            //transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(moveDirection), Time.deltaTime * 10f);
             transform.rotation = Quaternion.LookRotation(moveDirection);
         }
+
+        //// 카메라도 이동 방향을 따라 조금씩 회전
+        //Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
+        //Camera.main.transform.rotation = Quaternion.Slerp(Camera.main.transform.rotation, targetRotation, Time.deltaTime * 2f);
+
 
     }
 
