@@ -1,4 +1,5 @@
 using UnityEngine;
+using static UnityEditor.Experimental.GraphView.GraphView;
 
 [System.Serializable]
 public class SphericalCoordinates
@@ -75,6 +76,8 @@ public class CamCtrl : MonoBehaviour
 {
     private Vector3 lookPosition;
     public Vector3 targetCamPos = new Vector3(0, 0.5f, -4);
+    private Camera mainCamera;
+
 
     public Transform PlayerTr;
     public SphericalCoordinates sphericalCoordinates;
@@ -91,15 +94,26 @@ public class CamCtrl : MonoBehaviour
         float horizontal = Input.GetAxis("Mouse X") * -1;
         float vertical = Input.GetAxis("Mouse Y") * -1;
 
+
+
         //플레이어 위치에서 조금더 위쪽으로 자리잡게 만든다.
-        lookPosition = new Vector3(PlayerTr.position.x,
+        lookPosition = new Vector3(PlayerTr.position.x +0.5f,
         PlayerTr.position.y + targetCamPos.y, PlayerTr.position.z);
 
         //플레이어 중심으로 구한 구면좌표를 카메라 위치에 적용
         transform.position = sphericalCoordinates.Rotate
             (horizontal * Time.deltaTime, vertical * Time.deltaTime).toCartesian + lookPosition;
 
+       // Debug.DrawRay(transform.position, -targetCamPos, Color.red);
+
         //목표지점으로 카메라를 보게함
         transform.LookAt(lookPosition);
+       
+        
+        RaycastHit hit;
+        Vector3 dir = transform.position - PlayerTr.transform.position;
+        Debug.DrawRay(PlayerTr.transform.position, dir.normalized * dir.magnitude, Color.red);
+
+
     }
 }
