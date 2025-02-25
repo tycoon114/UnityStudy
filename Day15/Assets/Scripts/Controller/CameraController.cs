@@ -2,12 +2,12 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    public Vector3 offset = new Vector3(0, 2.0f, -4.0f); // 카메라 위치 조정
+    public Vector3 offset = new Vector3(0, 0.5f, -4);// 카메라 위치 조정
     public float cameraSpeed = 5f; // 부드러운 이동 속도
     public Transform player; // 플레이어 캐릭터
     public float sensitivity = 2.0f; // 마우스 감도
-    public float zoomFOV = 20f; // 줌 시 FOV
-    public float normalFOV = 60f; // 기본 FOV
+    public float zoomFOV = 10f; // 줌 시 FOV
+    public float normalFOV = 20f; // 기본 FOV
 
     private float pitch = 0f; // 위아래 회전
     private float yaw = 0f; // 좌우 회전
