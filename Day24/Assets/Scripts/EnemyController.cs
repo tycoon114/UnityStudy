@@ -5,7 +5,7 @@ public class EnemyController : MonoBehaviour
     public float speed = 5.0f;
     Vector3 dir;
 
-    //public GameObject effectFactory;
+    public GameObject effectFactory;
 
     private void Start()
     {
@@ -34,8 +34,8 @@ public class EnemyController : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        //GameObject explosion = Instantiate(effectFactory);
-        //explosion.transform.position = transform.position;
+        GameObject explosion = Instantiate(effectFactory);
+        explosion.transform.position = transform.position;
 
         Destroy(collision.gameObject);
         Destroy(gameObject);
