@@ -5953,3 +5953,1599 @@ Day15/Assets/Resources/Models/UnityURPToonLitShaderExample-master/SimpleURPToonL
 Day15/Assets/Resources/Models/UnityURPToonLitShaderExample-master/SimpleURPToonLitOutlineExample_LightingEquation.hlsl.meta
 Day15/Assets/Resources/Models/UnityURPToonLitShaderExample-master/SimpleURPToonLitOutlineExample_Shared.hlsl
 Day15/Assets/Resources/Models/UnityURPToonLitShaderExample-master/SimpleURPToonLitOutlineExample_Shared.hlsl.meta
+Day24/Assets/AurynSky.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Materials.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Materials/RocketsPalletteBlank.mat
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Materials/RocketsPalletteBlank.mat.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Materials/RocketsPalletteBlue.mat
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Materials/RocketsPalletteBlue.mat.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Materials/RocketsPalletteGreen.mat
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Materials/RocketsPalletteGreen.mat.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Materials/RocketsPalletteGrey.mat
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Materials/RocketsPalletteGrey.mat.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Materials/RocketsPalletteOrange.mat
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Materials/RocketsPalletteOrange.mat.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Materials/RocketsPallettePink.mat
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Materials/RocketsPallettePink.mat.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Materials/RocketsPalletteRed.mat
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Materials/RocketsPalletteRed.mat.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Materials/RocketsPalletteYellow.mat
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Materials/RocketsPalletteYellow.mat.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket01.fbx
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket01.fbx.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket02.fbx
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket02.fbx.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket03.fbx
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket03.fbx.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket04.fbx
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket04.fbx.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket05.fbx
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket05.fbx.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket06.fbx
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket06.fbx.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket07.fbx
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket07.fbx.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket08.fbx
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket08.fbx.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket09.fbx
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket09.fbx.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket10.fbx
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket10.fbx.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket11.fbx
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket11.fbx.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket12.fbx
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket12.fbx.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket13.fbx
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket13.fbx.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket14.fbx
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket14.fbx.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket15.fbx
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket15.fbx.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket16.fbx
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket16.fbx.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket17.fbx
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket17.fbx.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket18.fbx
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket18.fbx.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket19.fbx
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket19.fbx.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket20.fbx
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket20.fbx.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket21.fbx
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket21.fbx.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket22.fbx
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket22.fbx.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket23.fbx
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket23.fbx.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket24.fbx
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket24.fbx.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket25.fbx
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket25.fbx.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket26.fbx
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket26.fbx.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket27.fbx
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket27.fbx.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket28.fbx
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket28.fbx.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket29.fbx
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket29.fbx.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket30.fbx
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Models/Rocket30.fbx.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket01_Blue.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket01_Blue.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket02_Blue.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket02_Blue.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket03_Blue.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket03_Blue.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket04_Blue.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket04_Blue.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket05_Blue.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket05_Blue.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket06_Blue.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket06_Blue.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket07_Blue.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket07_Blue.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket08_Blue.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket08_Blue.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket09_Blue.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket09_Blue.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket10_Blue.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket10_Blue.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket11_Blue.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket11_Blue.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket12_Blue.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket12_Blue.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket13_Blue.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket13_Blue.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket14_Blue.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket14_Blue.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket15_Blue.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket15_Blue.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket16_Blue.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket16_Blue.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket17_Blue.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket17_Blue.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket18_Blue.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket18_Blue.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket19_Blue.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket19_Blue.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket20_Blue.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket20_Blue.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket21_Blue.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket21_Blue.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket22_Blue.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket22_Blue.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket23_Blue.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket23_Blue.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket24_Blue.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket24_Blue.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket25_Blue.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket25_Blue.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket26_Blue.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket26_Blue.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket27_Blue.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket27_Blue.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket28_Blue.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket28_Blue.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket29_Blue.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket29_Blue.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket30_Blue.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Blue/Rocket30_Blue.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket01_Green.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket01_Green.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket02_Green.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket02_Green.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket03_Green.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket03_Green.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket04_Green.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket04_Green.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket05_Green.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket05_Green.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket06_Green.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket06_Green.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket07_Green.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket07_Green.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket08_Green.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket08_Green.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket09_Green.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket09_Green.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket10_Green.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket10_Green.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket11_Green.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket11_Green.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket12_Green.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket12_Green.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket13_Green.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket13_Green.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket14_Green.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket14_Green.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket15_Green.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket15_Green.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket16_Green.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket16_Green.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket17_Green.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket17_Green.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket18_Green.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket18_Green.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket19_Green.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket19_Green.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket20_Green.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket20_Green.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket21_Green.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket21_Green.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket22_Green.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket22_Green.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket23_Green.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket23_Green.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket24_Green.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket24_Green.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket25_Green.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket25_Green.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket26_Green.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket26_Green.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket27_Green.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket27_Green.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket28_Green.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket28_Green.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket29_Green.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket29_Green.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket30_Green.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Green/Rocket30_Green.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket01_Grey.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket01_Grey.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket02_Grey.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket02_Grey.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket03_Grey.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket03_Grey.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket04_Grey.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket04_Grey.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket05_Grey.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket05_Grey.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket06_Grey.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket06_Grey.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket07_Grey.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket07_Grey.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket08_Grey.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket08_Grey.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket09_Grey.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket09_Grey.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket10_Grey.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket10_Grey.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket11_Grey.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket11_Grey.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket12_Grey.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket12_Grey.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket13_Grey.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket13_Grey.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket14_Grey.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket14_Grey.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket15_Grey.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket15_Grey.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket16_Grey.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket16_Grey.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket17_Grey.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket17_Grey.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket18_Grey.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket18_Grey.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket19_Grey.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket19_Grey.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket20_Grey.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket20_Grey.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket21_Grey.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket21_Grey.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket22_Grey.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket22_Grey.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket23_Grey.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket23_Grey.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket24_Grey.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket24_Grey.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket25_Grey.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket25_Grey.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket26_Grey.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket26_Grey.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket27_Grey.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket27_Grey.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket28_Grey.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket28_Grey.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket29_Grey.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket29_Grey.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket30_Grey.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket30_Grey.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket01_Orange.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket01_Orange.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket02_Orange.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket02_Orange.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket03_Orange.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket03_Orange.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket04_Orange.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket04_Orange.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket05_Orange.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket05_Orange.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket06_Orange.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket06_Orange.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket07_Orange.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket07_Orange.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket08_Orange.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket08_Orange.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket09_Orange.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket09_Orange.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket10_Orange.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket10_Orange.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket11_Orange.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket11_Orange.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket12_Orange.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket12_Orange.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket13_Orange.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket13_Orange.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket14_Orange.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket14_Orange.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket15_Orange.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket15_Orange.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket16_Orange.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket16_Orange.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket17_Orange.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket17_Orange.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket18_Orange.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket18_Orange.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket19_Orange.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket19_Orange.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket20_Orange.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket20_Orange.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket21_Orange.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket21_Orange.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket22_Orange.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket22_Orange.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket23_Orange.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket23_Orange.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket24_Orange.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket24_Orange.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket25_Orange.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket25_Orange.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket26_Orange.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket26_Orange.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket27_Orange.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket27_Orange.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket28_Orange.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket28_Orange.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket29_Orange.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket29_Orange.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket30_Orange.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Orange/Rocket30_Orange.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket01_Pink.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket01_Pink.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket02_Pink.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket02_Pink.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket03_Pink.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket03_Pink.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket04_Pink.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket04_Pink.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket05_Pink.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket05_Pink.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket06_Pink.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket06_Pink.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket07_Pink.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket07_Pink.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket08_Pink.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket08_Pink.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket09_Pink.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket09_Pink.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket10_Pink.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket10_Pink.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket11_Pink.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket11_Pink.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket12_Pink.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket12_Pink.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket13_Pink.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket13_Pink.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket14_Pink.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket14_Pink.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket15_Pink.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket15_Pink.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket16_Pink.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket16_Pink.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket17_Pink.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket17_Pink.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket18_Pink.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket18_Pink.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket19_Pink.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket19_Pink.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket20_Pink.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket20_Pink.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket21_Pink.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket21_Pink.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket22_Pink.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket22_Pink.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket23_Pink.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket23_Pink.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket24_Pink.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket24_Pink.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket25_Pink.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket25_Pink.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket26_Pink.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket26_Pink.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket27_Pink.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket27_Pink.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket28_Pink.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket28_Pink.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket29_Pink.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket29_Pink.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket30_Pink.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Pink/Rocket30_Pink.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket01_Red.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket01_Red.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket02_Red.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket02_Red.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket03_Red.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket03_Red.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket04_Red.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket04_Red.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket05_Red.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket05_Red.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket06_Red.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket06_Red.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket07_Red.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket07_Red.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket08_Red.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket08_Red.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket09_Red.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket09_Red.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket10_Red.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket10_Red.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket11_Red.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket11_Red.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket12_Red.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket12_Red.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket13_Red.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket13_Red.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket14_Red.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket14_Red.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket15_Red.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket15_Red.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket16_Red.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket16_Red.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket17_Red.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket17_Red.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket18_Red.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket18_Red.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket19_Red.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket19_Red.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket20_Red.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket20_Red.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket21_Red.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket21_Red.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket22_Red.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket22_Red.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket23_Red.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket23_Red.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket24_Red.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket24_Red.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket25_Red.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket25_Red.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket26_Red.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket26_Red.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket27_Red.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket27_Red.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket28_Red.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket28_Red.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket29_Red.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket29_Red.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket30_Red.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket30_Red.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket01_Yellow.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket01_Yellow.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket02_Yellow.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket02_Yellow.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket03_Yellow.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket03_Yellow.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket04_Yellow.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket04_Yellow.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket05_Yellow.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket05_Yellow.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket06_Yellow.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket06_Yellow.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket07_Yellow.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket07_Yellow.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket08_Yellow.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket08_Yellow.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket09_Yellow.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket09_Yellow.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket10_Yellow.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket10_Yellow.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket11_Yellow.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket11_Yellow.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket12_Yellow.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket12_Yellow.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket13_Yellow.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket13_Yellow.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket14_Yellow.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket14_Yellow.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket15_Yellow.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket15_Yellow.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket16_Yellow.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket16_Yellow.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket17_Yellow.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket17_Yellow.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket18_Yellow.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket18_Yellow.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket19_Yellow.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket19_Yellow.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket20_Yellow.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket20_Yellow.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket21_Yellow.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket21_Yellow.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket22_Yellow.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket22_Yellow.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket23_Yellow.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket23_Yellow.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket24_Yellow.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket24_Yellow.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket25_Yellow.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket25_Yellow.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket26_Yellow.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket26_Yellow.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket27_Yellow.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket27_Yellow.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket28_Yellow.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket28_Yellow.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket29_Yellow.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket29_Yellow.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket30_Yellow.prefab
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Yellow/Rocket30_Yellow.prefab.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/READ ME.txt
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/READ ME.txt.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Textures.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPalletteBlue.png
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPalletteBlue.png.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPalletteGreen.png
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPalletteGreen.png.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPalletteGrey.png
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPalletteGrey.png.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPalletteOrange.png
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPalletteOrange.png.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPallettePink.png
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPallettePink.png.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPalletteRed.png
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPalletteRed.png.meta
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPalletteYellow.png
+Day24/Assets/AurynSky/Rockets Missiles and Bombs/Textures/RocketsPalletteYellow.png.meta
+Day24/Assets/AwesomeCartoonPlanes.meta
+Day24/Assets/AwesomeCartoonPlanes/Images.meta
+Day24/Assets/AwesomeCartoonPlanes/Images/Plane1_2048x2048.psd
+Day24/Assets/AwesomeCartoonPlanes/Images/Plane1_2048x2048.psd.meta
+Day24/Assets/AwesomeCartoonPlanes/Images/Plane2_2048x2048.psd
+Day24/Assets/AwesomeCartoonPlanes/Images/Plane2_2048x2048.psd.meta
+Day24/Assets/AwesomeCartoonPlanes/Images/Plane3_2048x2048.psd
+Day24/Assets/AwesomeCartoonPlanes/Images/Plane3_2048x2048.psd.meta
+Day24/Assets/AwesomeCartoonPlanes/Images/Plane4_2048x2048.psd
+Day24/Assets/AwesomeCartoonPlanes/Images/Plane4_2048x2048.psd.meta
+Day24/Assets/AwesomeCartoonPlanes/Images/Plane_UV_2048x2048.psd
+Day24/Assets/AwesomeCartoonPlanes/Images/Plane_UV_2048x2048.psd.meta
+Day24/Assets/AwesomeCartoonPlanes/Images/Prop1.psd
+Day24/Assets/AwesomeCartoonPlanes/Images/Prop1.psd.meta
+Day24/Assets/AwesomeCartoonPlanes/Images/Prop1Blur.psd
+Day24/Assets/AwesomeCartoonPlanes/Images/Prop1Blur.psd.meta
+Day24/Assets/AwesomeCartoonPlanes/Materials.meta
+Day24/Assets/AwesomeCartoonPlanes/Materials/Plane1_2048x2048.mat
+Day24/Assets/AwesomeCartoonPlanes/Materials/Plane1_2048x2048.mat.meta
+Day24/Assets/AwesomeCartoonPlanes/Materials/Plane2_2048x2048.mat
+Day24/Assets/AwesomeCartoonPlanes/Materials/Plane2_2048x2048.mat.meta
+Day24/Assets/AwesomeCartoonPlanes/Materials/Plane3_2048x2048.mat
+Day24/Assets/AwesomeCartoonPlanes/Materials/Plane3_2048x2048.mat.meta
+Day24/Assets/AwesomeCartoonPlanes/Materials/Plane4_2048x2048.mat
+Day24/Assets/AwesomeCartoonPlanes/Materials/Plane4_2048x2048.mat.meta
+Day24/Assets/AwesomeCartoonPlanes/Materials/Prop1.mat
+Day24/Assets/AwesomeCartoonPlanes/Materials/Prop1.mat.meta
+Day24/Assets/AwesomeCartoonPlanes/Materials/Prop1Blur.mat
+Day24/Assets/AwesomeCartoonPlanes/Materials/Prop1Blur.mat.meta
+Day24/Assets/AwesomeCartoonPlanes/Models.meta
+Day24/Assets/AwesomeCartoonPlanes/Models/Materials.meta
+Day24/Assets/AwesomeCartoonPlanes/Models/Materials/Material.mat
+Day24/Assets/AwesomeCartoonPlanes/Models/Materials/Material.mat.meta
+Day24/Assets/AwesomeCartoonPlanes/Models/Materials/No Name.mat
+Day24/Assets/AwesomeCartoonPlanes/Models/Materials/No Name.mat.meta
+Day24/Assets/AwesomeCartoonPlanes/Models/Plane1.fbx
+Day24/Assets/AwesomeCartoonPlanes/Models/Plane1.fbx.meta
+Day24/Assets/AwesomeCartoonPlanes/Models/Prop1.fbx
+Day24/Assets/AwesomeCartoonPlanes/Models/Prop1.fbx.meta
+Day24/Assets/AwesomeCartoonPlanes/Models/Prop1Blur.fbx
+Day24/Assets/AwesomeCartoonPlanes/Models/Prop1Blur.fbx.meta
+Day24/Assets/AwesomeCartoonPlanes/Prefabs.meta
+Day24/Assets/AwesomeCartoonPlanes/Prefabs/Plane1.prefab
+Day24/Assets/AwesomeCartoonPlanes/Prefabs/Plane1.prefab.meta
+Day24/Assets/AwesomeCartoonPlanes/Prefabs/Plane2.prefab
+Day24/Assets/AwesomeCartoonPlanes/Prefabs/Plane2.prefab.meta
+Day24/Assets/AwesomeCartoonPlanes/Prefabs/Plane3.prefab
+Day24/Assets/AwesomeCartoonPlanes/Prefabs/Plane3.prefab.meta
+Day24/Assets/AwesomeCartoonPlanes/Prefabs/Plane4.prefab
+Day24/Assets/AwesomeCartoonPlanes/Prefabs/Plane4.prefab.meta
+Day24/Assets/AwesomeCartoonPlanes/Scripts.meta
+Day24/Assets/AwesomeCartoonPlanes/Scripts/Plane.cs
+Day24/Assets/AwesomeCartoonPlanes/Scripts/Plane.cs.meta
+Day24/Assets/AwesomeCartoonPlanes/Scripts/RotateCamera.cs
+Day24/Assets/AwesomeCartoonPlanes/Scripts/RotateCamera.cs.meta
+Day24/Assets/JMO Assets.meta
+Day24/Assets/JMO Assets/Cartoon FX FREE (old legacy effects).unitypackage.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR_ExpressionParser.cs
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR_ExpressionParser.cs.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR_MaterialInspector.cs
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR_MaterialInspector.cs.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR_ShaderImporter.cs
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR_ShaderImporter.cs.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR_ShaderPostProcessor.cs
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR_ShaderPostProcessor.cs.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR_Styles.cs
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR_Styles.cs.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr aura rays hdr ab nosp.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr aura rays hdr ab nosp.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr aura rays.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr aura rays.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr aura runic hdr ab nosp.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr aura runic hdr ab nosp.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr aura runic.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr aura runic.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr blood dissolve ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr blood dissolve ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr blood dissolve.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr blood dissolve.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr blood splash dissolve ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr blood splash dissolve ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr blood splash dissolve.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr blood splash dissolve.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr blood splash mesh.asset
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr blood splash mesh.asset.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr blood splash.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr blood splash.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr blood.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr blood.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr bubble 2 ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr bubble 2 ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr bubble 2.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr bubble 2.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr bubble ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr bubble ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr bubble hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr bubble hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr bubble.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr bubble.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr card club ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr card club ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr card club.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr card club.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr card diamond ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr card diamond ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr card diamond mesh.asset
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr card diamond mesh.asset.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr card diamond.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr card diamond.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr card heart ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr card heart ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr card heart.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr card heart.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr card spade ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr card spade ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr card spade.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr card spade.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr cloud blur add.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr cloud blur add.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr cloud blur.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr cloud blur.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris 3x3 ab lit emission.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris 3x3 ab lit emission.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris 3x3 ab lit.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris 3x3 ab lit.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris 3x3 normal.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris 3x3 normal.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris 3x3.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris 3x3.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris flat unlit 3x3 ab hdr.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris flat unlit 3x3 ab hdr.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris flat unlit 3x3 ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris flat unlit 3x3 ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris flat unlit 3x3.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris flat unlit 3x3.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris ice 2x2 ab lit.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris ice 2x2 ab lit.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris ice 2x2 normal.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris ice 2x2 normal.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris ice 2x2.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris ice 2x2.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris unlit 3x3 ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris unlit 3x3 ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris unlit 3x3.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris unlit 3x3.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris wood 3x3 ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris wood 3x3 ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris wood 3x3 normal.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris wood 3x3 normal.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris wood 3x3.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris wood 3x3.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris wood unlit 3x3 ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris wood unlit 3x3 ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris wood unlit 3x3.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris wood unlit 3x3.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric arc anim x4.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric arc anim x4.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric arc anim x4.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric arc anim x4.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric arcs fade x4 hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric arcs fade x4 hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric arcs fade x4.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric arcs fade x4.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric arcs x4 hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric arcs x4 hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric arcs x4.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric arcs x4.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric small anim 4x2 hdr.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric small anim 4x2 hdr.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric small anim 4x2.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric small anim 4x2.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric small anim2 7x2 ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric small anim2 7x2 ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric small anim2 7x2 mesh.asset
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric small anim2 7x2 mesh.asset.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric small anim2 7x2.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric small anim2 7x2.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric spark.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric spark.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric sparks ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric sparks ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric sparks hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric sparks hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ember blur hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ember blur hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ember blur.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ember blur.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr explosion second color map.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr explosion second color map.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr explosion smoke alpha.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr explosion smoke alpha.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr explosion smoke dissolve.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr explosion smoke dissolve.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire blur fade hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire blur fade hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle blur hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle blur hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle blur.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle blur.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle crisp hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle crisp hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle crisp.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle crisp.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle drawn blurred hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle drawn blurred hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle drawn blurred.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle drawn blurred.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle drawn hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle drawn hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle drawn.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle drawn.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle plain hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle plain hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle plain.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle plain.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire crisp fade hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire crisp fade hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire crisp fade nosp hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire crisp fade nosp hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire edge dissolve.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire edge dissolve.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire edge hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire edge hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire edge.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire edge.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire full blurred fade hdr add.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire full blurred fade hdr add.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire plain fade hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire plain fade hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire small anim blurred hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire small anim blurred hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire small anim blurred.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire small anim blurred.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire small anim hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire small anim hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire small anim.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire small anim.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire stepped fade hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire stepped fade hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme blur mid fine hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme blur mid fine hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme blur mid hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme blur mid hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme blur stable fine hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme blur stable fine hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme blur stable hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme blur stable hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme blur unstable fine hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme blur unstable fine hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme blur unstable hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme blur unstable hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme blur.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme blur.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme candle hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme candle hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme candle unstable hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme candle unstable hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme candle.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme candle.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme crisp mid fine hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme crisp mid fine hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme crisp mid hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme crisp mid hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme crisp stable fine hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme crisp stable fine hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme crisp stable hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme crisp stable hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme crisp unstable fine hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme crisp unstable fine hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme crisp unstable hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme crisp unstable hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme crisp.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme crisp.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme full blurred.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme full blurred.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme plain mid fine hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme plain mid fine hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme plain mid hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme plain mid hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme plain stable fine hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme plain stable fine hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme plain stable hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme plain stable hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme plain unstable fine hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme plain unstable fine hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme plain unstable hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme plain unstable hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme plain.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme plain.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme stepped.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme stepped.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flare add.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flare add.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flare.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flare.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fly anim x4.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fly anim x4.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fly anim.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fly anim.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ghost trail add.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ghost trail add.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ghost trail.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ghost trail.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr heart break dissolve ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr heart break dissolve ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr heart break dissolve.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr heart break dissolve.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr heart break parts ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr heart break parts ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr heart break parts.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr heart break parts.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr heart.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr heart.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr hidden.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr hidden.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr hit triangle 2.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr hit triangle 2.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr hit triangle diamond dissolve.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr hit triangle diamond dissolve.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr hit triangle dissolve.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr hit triangle dissolve.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr hit triangle.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr hit triangle.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr leave a ab lit normal.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr leave a ab lit normal.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr leave a normal.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr leave a normal.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr leave a.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr leave a.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr leave b ab lit normal.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr leave b ab lit normal.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr leave b normal.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr leave b normal.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr leave b.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr leave b.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr line loop electric ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr line loop electric ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr line loop electric hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr line loop electric hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr line loop electric.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr line loop electric.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr magic star hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr magic star hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr magic star mesh.asset
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr magic star mesh.asset.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr magic star.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr magic star.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr no texture hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr no texture hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr noise clouds big.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr noise clouds big.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr perlin big.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr perlin big.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr perlin mid.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr perlin mid.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr perlin smudge.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr perlin smudge.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr petal normal.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr petal normal.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr petal pink x4 ab lit normal.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr petal pink x4 ab lit normal.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr petal pink x4.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr petal pink x4.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow crisp ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow crisp ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft add.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft add.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft ground nosp add.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft ground nosp add.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft hdr p4 add.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft hdr p4 add.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft invert ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft invert ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft invert add nosp.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft invert add nosp.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft invert add.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft invert add.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft invert hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft invert hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft nosp add.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft nosp add.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft p4 add nosp.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft p4 add nosp.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft p4 add.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft p4 add.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft p8 add.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc glow soft p8 add.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring add.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring add.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring electric hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring electric hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring ice hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring ice hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring local space ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring local space ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring local space add.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring local space add.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring local space hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring local space hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring local space partial ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring local space partial ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring water ripple local space ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring water ripple local space ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring water ripple local space arc ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr proc ring water ripple local space arc ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr puddle dissolve ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr puddle dissolve ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr puddle dissolve soft ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr puddle dissolve soft ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr puddle dissolve.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr puddle dissolve.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr puddle mesh.asset
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr puddle mesh.asset.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr puddle.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr puddle.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ring arc.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ring arc.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ring electric.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ring electric.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ring ice.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ring ice.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ring ripple arc dissolve.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ring ripple arc dissolve.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ring ripple dissolve.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ring ripple dissolve.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ring spikes revert hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ring spikes revert hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ring spikes revert.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ring spikes revert.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr screen distortion debug.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr screen distortion debug.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr screen distortion debug.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr screen distortion debug.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr screen distortion perlin.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr screen distortion perlin.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr screen distortion perlin.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr screen distortion perlin.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr screen distortion ring nosp.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr screen distortion ring nosp.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr screen distortion ring.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr screen distortion ring.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr screen distortion ring.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr screen distortion ring.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr screen distortion sphere.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr screen distortion sphere.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr screen distortion sphere.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr screen distortion sphere.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr skull 2 dissolve ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr skull 2 dissolve ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr skull 2 dissolve.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr skull 2 dissolve.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr skull 2.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr skull 2.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr skull dissolve ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr skull dissolve ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr skull dissolve alt.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr skull dissolve alt.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr skull dissolve.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr skull dissolve.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr skull distort hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr skull distort hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr skull outer outline ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr skull outer outline ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr skull outer outline.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr skull outer outline.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr skull.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr skull.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smiley angry ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smiley angry ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smiley angry.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smiley angry.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smiley frown ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smiley frown ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smiley frown.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smiley frown.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smiley happy ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smiley happy ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smiley happy.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smiley happy.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smiley smile ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smiley smile ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smiley smile.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smiley smile.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud corner ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud corner ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud corner dissolve.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud corner dissolve.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud corner.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud corner.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 ab blurred.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 ab blurred.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 ab lit crisp.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 ab lit crisp.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 ab lit normal.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 ab lit normal.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 ab lit soft individual bright shadow.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 ab lit soft individual bright shadow.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 ab lit soft individual mid shadow.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 ab lit soft individual mid shadow.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 ab lit soft individual.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 ab lit soft individual.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 ab lit soft.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 ab lit soft.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 blurred.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 blurred.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 crisp dissolve ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 crisp dissolve ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 dissolve.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 dissolve.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 mult blurred.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 mult blurred.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 normal.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 normal.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 second color ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 second color ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 second color underlit ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 second color underlit ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 second color.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 second color.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 white.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 white.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes half impact gradient.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes half impact gradient.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes half impact hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes half impact hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes impact ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes impact ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes impact add.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes impact add.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes impact dissolve ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes impact dissolve ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes impact dissolve hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes impact dissolve hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes impact dissolve invert ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes impact dissolve invert ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes impact dissolve.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes impact dissolve.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes impact hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes impact hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes impact mesh.asset
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes impact mesh.asset.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes impact.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes impact.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr star ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr star ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr star blurred add.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr star blurred add.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr star blurred.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr star blurred.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr star mesh.asset
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr star mesh.asset.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr star.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr star.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr steam blur dissolve hdr add.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr steam blur dissolve hdr add.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch fire crisp fade hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch fire crisp fade hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch flamme crisp dissolve.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch flamme crisp dissolve.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch flamme crisp.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch flamme crisp.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch inv spike fade ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch inv spike fade ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch inv spike fade add.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch inv spike fade add.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch inv spike fade.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch inv spike fade.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch rain blur ab nosp.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch rain blur ab nosp.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch rain blur ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch rain blur ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch rain blur.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch rain blur.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch ray blur add.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch ray blur add.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch ray blur hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch ray blur hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch ray blur.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch ray blur.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch rectangle ray ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch rectangle ray ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch rectangle ray blur add.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch rectangle ray blur add.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch rectangle ray blur hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch rectangle ray blur hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch rectangle ray blur.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch rectangle ray blur.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch rectangle ray hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch rectangle ray hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch rectangle ray.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch rectangle ray.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch sipkes blur x2.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch sipkes blur x2.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch sipkes dissolve smooth x2.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch sipkes dissolve smooth x2.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch sipkes dissolve x2.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch sipkes dissolve x2.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch sipkes x2 mesh.asset
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch sipkes x2 mesh.asset.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch sipkes x2.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch sipkes x2.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch skull dissolve ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch skull dissolve ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch skull dissolve.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch skull dissolve.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch skull.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch skull.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch smoke arc ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch smoke arc ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch smoke arc dissolve.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch smoke arc dissolve.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch smoke arc.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch smoke arc.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch smoke fume blur ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch smoke fume blur ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch smoke fume.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch smoke fume.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch spike fade add.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch spike fade add.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch spike fade.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch spike fade.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch spikes smooth x2 hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch spikes smooth x2 hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch spikes x2 hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch spikes x2 hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch steam blur distort.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch steam blur distort.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait blur ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait blur ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait blur add.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait blur add.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait blur.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait blur.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait hdr ab nosp.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait hdr ab nosp.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch triangle add.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch triangle add.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch triangle fade ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch triangle fade ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch triangle fade.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch triangle fade.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch triangle smooth add.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch triangle smooth add.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch triangle smooth nosp ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch triangle smooth nosp ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch triangle smooth nosp add.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch triangle smooth nosp add.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch triangle to diamond ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch triangle to diamond ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch triangle to diamond add.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch triangle to diamond add.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail bubbles hit.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail bubbles hit.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail bubbles.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail bubbles.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail flames hit.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail flames hit.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail flames.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail flames.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail ice hit.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail ice hit.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail ice thin.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail ice thin.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail ice.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail ice.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail light.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail light.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail mask light.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail mask light.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail mask lines.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail mask lines.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail mask plain.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail mask plain.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail noise bubbles.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail noise bubbles.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail noise ice.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail noise ice.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail noise tech.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail noise tech.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail plain.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail plain.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail slash.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail slash.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail tech hit.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail tech hit.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail tech thin.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail tech thin.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail tech.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail tech.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr uv distortion fire perlin.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr uv distortion fire perlin.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr uv distortion fire smudge.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr uv distortion fire smudge.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water drop blur anim ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water drop blur anim ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water drop blur anim hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water drop blur anim hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water drop blur anim.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water drop blur anim.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water foam ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water foam ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water foam.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water foam.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water small splash hollow stretch nosp ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water small splash hollow stretch nosp ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water small splash hollow stretch nosp hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water small splash hollow stretch nosp hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water small splash hollow stretch.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water small splash hollow stretch.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water small splash stretch nosp ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water small splash stretch nosp ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water small splash stretch nosp hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water small splash stretch nosp hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water small splash stretch.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water small splash stretch.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ww smoke bright hdr ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ww smoke bright hdr ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ww smoke bright.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ww smoke bright.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ww smoke first color.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ww smoke first color.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ww smoke glow ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ww smoke glow ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ww smoke glow.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ww smoke glow.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ww smoke second color ab.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ww smoke second color ab.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ww smoke second color.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ww smoke second color.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr electric_arc_circle.fbx
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr electric_arc_circle.fbx.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr electric_barrier.fbx
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr electric_barrier.fbx.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh disk.fbx
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh disk.fbx.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh donut.fbx
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh donut.fbx.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh foam.fbx
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh foam.fbx.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh leave.fbx
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh leave.fbx.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh ring.fbx
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh ring.fbx.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh star4.fbx
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh star4.fbx.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh star6.fbx
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh star6.fbx.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh star8.fbx
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh star8.fbx.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh sword_slashes.fbx
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh sword_slashes.fbx.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr particle_electric_arc.fbx
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr particle_electric_arc.fbx.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr particle_electric_arc_2.fbx
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr particle_electric_arc_2.fbx.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr ring mesh half.asset
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr ring mesh half.asset.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr ring mesh local space smoother.asset
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr ring mesh local space smoother.asset.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr ring mesh local space.asset
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr ring mesh local space.asset.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr ring mesh.asset
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr ring mesh.asset.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Misc.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Misc/cfxr font AmazGoDaBold.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Misc/cfxr font AmazGoDaBold.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Misc/cfxr font WashYourHand.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Misc/cfxr font WashYourHand.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Misc/cfxr particle font.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Misc/cfxr particle font.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Misc/cfxr ParticleFont AmazGoDaBold.asset
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Misc/cfxr ParticleFont AmazGoDaBold.asset.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Misc/cfxr ParticleFont WashYourHand.asset
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Misc/cfxr ParticleFont WashYourHand.asset.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_Effect.CameraShake.cs
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_Effect.CameraShake.cs.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_Effect.cs
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_Effect.cs.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_EmissionBySurface.cs
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_EmissionBySurface.cs.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_ParticleText.cs
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_ParticleText.cs.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_ParticleTextFontAsset.cs
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_ParticleTextFontAsset.cs.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR Particle Distortion.cfxrshader
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR Particle Distortion.cfxrshader.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR Particle Glow.cfxrshader
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR Particle Glow.cfxrshader.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR Particle Procedural Ring.cfxrshader
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR Particle Procedural Ring.cfxrshader.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR Particle Ubershader.cfxrshader
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR Particle Ubershader.cfxrshader.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR.cginc
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR.cginc.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR_PASSES.cginc
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR_PASSES.cginc.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR_SETTINGS.cginc
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR_SETTINGS.cginc.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR_URP.cginc
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR_URP.cginc.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Eerie.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Eerie/CFXR2 Skull Head Alt.prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Eerie/CFXR2 Skull Head Alt.prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Eerie/CFXR2 Souls Escape.prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Eerie/CFXR2 Souls Escape.prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Eerie/CFXR2 WW Enemy Explosion.prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Eerie/CFXR2 WW Enemy Explosion.prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR Electrified 3.prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR Electrified 3.prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR2 Sparks Rain.prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR2 Sparks Rain.prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR3 Hit Electric C (Air).prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR3 Hit Electric C (Air).prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR Explosion 1.prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR Explosion 1.prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR Explosion Smoke 2 Solo (HDR).prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR Explosion Smoke 2 Solo (HDR).prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR2 WW Explosion.prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR2 WW Explosion.prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR3 Fire Explosion B.prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR3 Fire Explosion B.prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR4 Firework 1 Cyan-Purple (HDR).prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR4 Firework 1 Cyan-Purple (HDR).prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR4 Firework HDR Shoot Single (Random Color).prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR4 Firework HDR Shoot Single (Random Color).prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR Fire Breath.prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR Fire Breath.prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR Fire.prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR Fire.prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR2 Firewall A.prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR2 Firewall A.prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR3 Hit Fire B (Air).prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR3 Hit Fire B (Air).prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR4 Sun.prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR4 Sun.prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Ice.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Ice/CFXR3 Hit Ice B (Air).prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Ice/CFXR3 Hit Ice B (Air).prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit A (Red).prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit A (Red).prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit D 3D (Yellow).prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit D 3D (Yellow).prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Impact Glowing HDR (Blue).prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Impact Glowing HDR (Blue).prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR2 Ground Hit.prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR2 Ground Hit.prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Light.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Light/CFXR3 Hit Light B (Air).prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Light/CFXR3 Hit Light B (Air).prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Light/CFXR3 LightGlow A (Loop).prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Light/CFXR3 LightGlow A (Loop).prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Water Ripples.prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Water Ripples.prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Water Splash (Smaller).prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Water Splash (Smaller).prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR2 Blood (Directional).prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR2 Blood (Directional).prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR2 Blood Shape Splash.prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR2 Blood Shape Splash.prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR4 Bubbles Breath Underwater Loop.prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR4 Bubbles Breath Underwater Loop.prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Magic Misc.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Magic Misc/CFXR3 Magic Aura A (Runic).prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Magic Misc/CFXR3 Magic Aura A (Runic).prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Magic Misc/CFXR4 Bouncing Glows Bubble (Blue Purple).prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Magic Misc/CFXR4 Bouncing Glows Bubble (Blue Purple).prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Magic Misc/CFXR4 Falling Stars.prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Magic Misc/CFXR4 Falling Stars.prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Flash.prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Flash.prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Magic Poof.prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Magic Poof.prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Smoke Source 3D.prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Smoke Source 3D.prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR2 Broken Heart.prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR2 Broken Heart.prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR2 Cartoon Fight (Loop).prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR2 Cartoon Fight (Loop).prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR2 Poison Cloud.prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR2 Poison Cloud.prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR2 Shiny Item (Loop).prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR2 Shiny Item (Loop).prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR3 Ambient Glows.prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR3 Ambient Glows.prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR3 Hit Misc A.prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR3 Hit Misc A.prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR3 Hit Misc F Smoke.prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR3 Hit Misc F Smoke.prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Nature.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Nature/CFXR3 Hit Leaves A (Lit).prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Nature/CFXR3 Hit Leaves A (Lit).prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Nature/CFXR3 Shield Leaves A (Lit).prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Nature/CFXR3 Shield Leaves A (Lit).prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Nature/CFXR4 Rain Falling.prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Nature/CFXR4 Rain Falling.prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Nature/CFXR4 Rain Splashes.prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Nature/CFXR4 Rain Splashes.prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Nature/CFXR4 Wind Trails.prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Nature/CFXR4 Wind Trails.prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Sword Trails.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Sword Trails/Fire.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Sword Trails/Fire/CFXR4 Sword Hit FIRE (Cross).prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Sword Trails/Fire/CFXR4 Sword Hit FIRE (Cross).prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Sword Trails/Fire/CFXR4 Sword Trail FIRE (360 Spiral).prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Sword Trails/Fire/CFXR4 Sword Trail FIRE (360 Spiral).prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Sword Trails/Fire/CFXR4 Sword Trail FIRE (360 Thin Spiral).prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Sword Trails/Fire/CFXR4 Sword Trail FIRE (360 Thin Spiral).prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Sword Trails/Ice.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Sword Trails/Ice/CFXR4 Sword Hit ICE (Cross).prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Sword Trails/Ice/CFXR4 Sword Hit ICE (Cross).prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Sword Trails/Ice/CFXR4 Sword Trail ICE (360 Spiral).prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Sword Trails/Ice/CFXR4 Sword Trail ICE (360 Spiral).prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Sword Trails/Ice/CFXR4 Sword Trail ICE (360 Thin Spiral).prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Sword Trails/Ice/CFXR4 Sword Trail ICE (360 Thin Spiral).prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Sword Trails/Plain.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Sword Trails/Plain/CFXR4 Sword Hit PLAIN (Cross).prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Sword Trails/Plain/CFXR4 Sword Hit PLAIN (Cross).prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Sword Trails/Plain/CFXR4 Sword Trail PLAIN (360 Spiral).prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Sword Trails/Plain/CFXR4 Sword Trail PLAIN (360 Spiral).prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Sword Trails/Plain/CFXR4 Sword Trail PLAIN (360 Thin Spiral).prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Sword Trails/Plain/CFXR4 Sword Trail PLAIN (360 Thin Spiral).prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/_Make your own text effect.txt
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/_Make your own text effect.txt.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _BOING_.prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _BOING_.prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _BOOM_.prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _BOOM_.prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _POW_.prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _POW_.prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _SLASH_.prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _SLASH_.prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR2 _CURSED_.prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR2 _CURSED_.prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR2 _WHAM_ 3.prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR2 _WHAM_ 3.prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR3 _WOW_.prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR3 _WOW_.prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR4 _FROZEN_.prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR4 _FROZEN_.prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR4 _POISONED_.prefab
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR4 _POISONED_.prefab.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXRF Demo.unity
+Day24/Assets/JMO Assets/Cartoon FX Remaster/CFXRF Demo.unity.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo Ground URP.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo Ground URP.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo Ground.mat
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo Ground.mat.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo Ground.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo Ground.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR_Demo.cs
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR_Demo.cs.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR_Demo_Rotate.cs
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR_Demo_Rotate.cs.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR_Demo_Translate.cs
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR_Demo_Translate.cs.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Bloom.cs
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Bloom.cs.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/BloomEditor.cs
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/BloomEditor.cs.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/BloomGraphDrawer.cs
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/BloomGraphDrawer.cs.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Kino Bloom License.txt
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Kino Bloom License.txt.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Shader.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Shader/Bloom.cginc
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Shader/Bloom.cginc.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Shader/Bloom.shader
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Shader/Bloom.shader.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/UI.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Arrow R.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Arrow R.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Arrow.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Arrow.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Bloom H.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Bloom H.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Bloom.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Bloom.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Camera H.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Camera H.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Camera.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Camera.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn CameraShake H.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn CameraShake H.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn CameraShake.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn CameraShake.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Ground H.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Ground H.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Ground.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Ground.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Lights H.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Lights H.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Lights.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Lights.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn SlowMo H.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn SlowMo H.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn SlowMo.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn SlowMo.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXRF Demo Logo.png
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXRF Demo Logo.png.meta
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Readme Cartoon FX Remaster FREE.html
+Day24/Assets/JMO Assets/Cartoon FX Remaster/Readme Cartoon FX Remaster FREE.html.meta
+Day24/Assets/JMO Assets/Welcome Screen.meta
+Day24/Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef
+Day24/Assets/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef.meta
+Day24/Assets/JMO Assets/Welcome Screen/CFXR_WelcomeScreen.cs
+Day24/Assets/JMO Assets/Welcome Screen/CFXR_WelcomeScreen.cs.meta
+Day24/Assets/JMO Assets/Welcome Screen/CFXR_WelcomeScreen.uss
+Day24/Assets/JMO Assets/Welcome Screen/CFXR_WelcomeScreen.uss.meta
+Day24/Assets/JMO Assets/Welcome Screen/CFXR_WelcomeScreen.uxml
+Day24/Assets/JMO Assets/Welcome Screen/CFXR_WelcomeScreen.uxml.meta
+Day24/Assets/JMO Assets/Welcome Screen/CFXR_WelcomeScreen_Background.png
+Day24/Assets/JMO Assets/Welcome Screen/CFXR_WelcomeScreen_Background.png.meta
+Day24/ProjectSettings/DynamicsManager.asset
+Day24/ComputeCommandBuffer.cs
+Day24/IBaseCommandBuffer.cs
+Day24/IComputeCommandBuffer.cs
+Day24/IRasterCommandBuffer.cs
+Day24/IUnsafeCommandBuffer.cs
+Day24/ProjectSettings/DynamicsManager.asset
+Day24/ProjectSettings/QualitySettings.asset
+Day24/RasterCommandBuffer.cs
+Day24/UnsafeCommandBuffer.cs
+Day24/Assets/Prefab/bullet.prefab
