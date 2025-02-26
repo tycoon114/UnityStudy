@@ -194,11 +194,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 116563496}
   m_CullTransparentMesh: 1
---- !u!4 &159125414 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1101561296080092915, guid: 147df8e893d7c2d4ab38564e2e9a803e, type: 3}
-  m_PrefabInstance: {fileID: 5639874795566458692}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &162607889
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6721,7 +6716,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetCamPos: {x: 0, y: 0.5, z: -4}
-  PlayerTr: {fileID: 159125414}
+  PlayerTr: {fileID: 605165225}
   sphericalCoordinates:
     minAzimuth_Deg: 0
     maxAzimuth_Deg: 0
