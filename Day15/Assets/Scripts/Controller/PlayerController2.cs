@@ -81,6 +81,9 @@ public class PlayerController2 : MonoBehaviour
             animator.SetBool("isAim", isAim);
         }
 
+        // 중력 적용
+        moveDirection.y -= gravity * Time.deltaTime;
+        controller.Move(moveDirection * Time.deltaTime);
 
         // 중력 적용
         if (!controller.isGrounded)
