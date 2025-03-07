@@ -48,7 +48,7 @@ public class PlayerManager : MonoBehaviour
     public float runSpeed = 7.0f;
     private bool isAim = false;
     private bool isShoot = false;
-
+    
 
     public AudioClip audioClipFire;
     private AudioSource audioSource;
@@ -58,6 +58,7 @@ public class PlayerManager : MonoBehaviour
 
     void Start()
     {
+        RifleM4Obj.SetActive(false);
         animator = GetComponent<Animator>();
         audioSource = GetComponent<AudioSource>();
         Cursor.lockState = CursorLockMode.Locked;
@@ -183,7 +184,9 @@ public class PlayerManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Alpha1)) { 
             audioSource.PlayOneShot(audioWeaponChange);
-            //RifleM4Obj.
+            animator.SetTrigger("isWeaponChange");
+            RifleM4Obj.SetActive(true);
+
         }
 
 
