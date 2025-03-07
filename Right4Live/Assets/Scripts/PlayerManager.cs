@@ -1,4 +1,5 @@
 
+using System.Collections;
 using UnityEngine;
 
 
@@ -20,7 +21,7 @@ public class PlayerManager : MonoBehaviour
     public float zoomFov = 30.0f;       //확대 시 카메라 시야각 (1인칭)
 
     private float currentDistance;  //현재 카메라와의 거리 (3인칭)
-    private float taregetDistance; // 목표 카메라 거리
+    private float targetDistance; // 목표 카메라 거리
     private float targetFov; //목표 Fov
     private bool isZoomed = false;  //확대 여부 확인
     private Coroutine zoomCoroutine;    //확대 축소 코루틴
@@ -41,7 +42,7 @@ public class PlayerManager : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         currentDistance = thirdPersonDistance;
-        taregetDistance = thirdPersonDistance;
+        targetDistance = thirdPersonDistance;
         targetFov = defaultFov;
         mainCamera = cameraTransform.GetComponent<Camera>();
         mainCamera.fieldOfView = defaultFov;
@@ -85,6 +86,50 @@ public class PlayerManager : MonoBehaviour
         {
             ThirdPersonMovement();
         }
+
+        if(Input.GetMouseButtonDown(1))
+        {
+            //카메라를 서서히 움직이기 위해 코루틴 사용
+            //코루틴이 실행되고 있는지 확인 하기 위함
+            if (zoomCoroutine != null) { 
+                StopCoroutine(zoomCoroutine);   
+            }
+
+            if (isFirstPerson)
+            {
+                //1인칭 시점이면 카메라 위치가 아닌 FOV값 수정
+                SetTargetFov(zoomFov);
+                zoomCoroutine = StartCoroutine(ZoomFieldOfView(targetFov));
+            }
+            else { 
+                //3인칭이면 카메라 거리를 수정
+                SetTargetDistance(zoomDistance);
+                zoomCoroutine = StartCoroutine(ZoomCamera(targetDistance)); 
+            }
+
+        }
+
+        if (Input.GetMouseButtonUp(1))
+        {
+            if (zoomCoroutine != null)
+            {
+                StopCoroutine(zoomCoroutine);
+            }
+
+            if (isFirstPerson)
+            {
+                SetTargetFov(defaultFov);
+                zoomCoroutine = StartCoroutine(ZoomFieldOfView(targetFov));
+            }
+            else
+            {
+                SetTargetDistance(thirdPersonDistance);
+                zoomCoroutine = StartCoroutine(ZoomCamera(targetDistance));
+            }
+
+
+        }
+
     }
 
     void FirstPersonMovement()
@@ -133,7 +178,7 @@ public class PlayerManager : MonoBehaviour
             cameraTransform.position = transform.position + thirdPersonOffset + rotation * direction;
 
             //카메라가 플레이어의 위치를 따라가도록 설정
-            cameraTransform.LookAt(transform.position + new Vector3(0, thirdPersonOffset.y, 0));
+            cameraTransform.LookAt(transform.position + new Vector3(0.5f, thirdPersonOffset.y + 0.5f, 0));
         }
         else
         {
@@ -142,7 +187,40 @@ public class PlayerManager : MonoBehaviour
             Vector3 direction = new Vector3(0, 0, -currentDistance);
             cameraTransform.position = playerLookObj.position + thirdPersonOffset + Quaternion.Euler(pitch, yaw, 0) * direction;
 
-            cameraTransform.LookAt(playerLookObj.position + new Vector3(0, thirdPersonOffset.y, 0));
+            cameraTransform.LookAt(playerLookObj.position + new Vector3(0.5f, thirdPersonOffset.y + 0.5f, 0));
         }
     }
+
+    public void SetTargetDistance(float distance)
+    {
+        targetDistance = distance;
+    }
+
+    public void SetTargetFov(float fov)
+    {
+        targetFov = fov;
+    }
+
+
+    IEnumerator ZoomCamera(float targetDistance)
+    {
+        while (Mathf.Abs(currentDistance - targetDistance) > 0.01f)     //현재 거리에서 목표 거리로 부드럽게 이동
+        {
+            currentDistance = Mathf.Lerp(currentDistance, targetDistance, Time.deltaTime * zoomSpeed);
+            yield return null;
+        }
+        currentDistance = targetDistance;   //목표 거리 도달한 후 값을 고정
+    }
+
+    IEnumerator ZoomFieldOfView(float targetFov)
+    {
+        while (Mathf.Abs(mainCamera.fieldOfView - targetFov) > 0.01f)
+        {
+            mainCamera.fieldOfView = Mathf.Lerp(mainCamera.fieldOfView, targetFov, Time.deltaTime * zoomSpeed); 
+            yield return null;
+        }
+        mainCamera.fieldOfView = targetFov;
+    }
+
+
 }
