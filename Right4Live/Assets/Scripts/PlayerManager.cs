@@ -48,7 +48,7 @@ public class PlayerManager : MonoBehaviour
     public float runSpeed = 7.0f;
     private bool isAim = false;
     private bool isShoot = false;
-    
+
 
     public AudioClip audioClipFire;
     private AudioSource audioSource;
@@ -70,6 +70,52 @@ public class PlayerManager : MonoBehaviour
     }
 
     void Update()
+    {
+        CameraControll();
+        Gun();
+        Run();
+
+
+
+        AnimationControll();
+
+
+
+        moveSpeeed = isRunning ? runSpeed : walkSpeed;
+    }
+
+    void Run()
+    {
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            isRunning = true;
+
+        }
+        else
+        {
+            isRunning = false;
+        }
+
+
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            animator.SetTrigger("isWeaponChange");
+            RifleM4Obj.SetActive(true);
+
+        }
+
+    }
+
+    void AnimationControll()
+    {
+        animator.SetFloat("Horizontal", horizontal);
+        animator.SetFloat("Vertical", vertical);
+        animator.SetBool("isRunning", isRunning);
+    }
+
+
+
+    void CameraControll()
     {
         //마우스 입력을 받아 플레이어 회전
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
@@ -107,11 +153,16 @@ public class PlayerManager : MonoBehaviour
         {
             ThirdPersonMovement();
         }
+    }
 
+
+    void Gun()
+    {
         if (Input.GetMouseButtonDown(1))
         {
             isAim = true;
-            animator.SetBool("isAim", isAim);
+            //animator.SetBool("isAim", isAim);
+            animator.SetLayerWeight(1, 1);
             //카메라를 서서히 움직이기 위해 코루틴 사용
             //코루틴이 실행되고 있는지 확인 하기 위함
             if (zoomCoroutine != null)
@@ -134,10 +185,12 @@ public class PlayerManager : MonoBehaviour
 
         }
 
+
         if (Input.GetMouseButtonUp(1))
         {
             isAim = false;
-            animator.SetBool("isAim", isAim);
+            //animator.SetBool("isAim", isAim);
+            animator.SetLayerWeight(0, 1);
             if (zoomCoroutine != null)
             {
                 StopCoroutine(zoomCoroutine);
@@ -155,14 +208,12 @@ public class PlayerManager : MonoBehaviour
             }
         }
 
-
         if (Input.GetMouseButtonDown(0))
         {
             if (isAim)
             {
                 isShoot = true;
                 animator.SetBool("isShoot", isShoot);
-                audioSource.PlayOneShot(audioClipFire);
             }
         }
 
@@ -171,36 +222,12 @@ public class PlayerManager : MonoBehaviour
             isShoot = false;
         }
 
-        if (Input.GetKey(KeyCode.LeftShift))
-        {
-            isRunning = true;
-
-        }
-        else
-        {
-            isRunning = false;
-        }
-
-
-        if (Input.GetKeyDown(KeyCode.Alpha1)) { 
-            audioSource.PlayOneShot(audioWeaponChange);
-            animator.SetTrigger("isWeaponChange");
-            RifleM4Obj.SetActive(true);
-
-        }
-
-
-        animator.SetFloat("Horizontal", horizontal);
-        animator.SetFloat("Vertical", vertical);
-        animator.SetBool("isRunning", isRunning);
-
-        moveSpeeed = isRunning ? runSpeed : walkSpeed;
     }
+
 
     void FirstPersonMovement()
     {
-        if (!isAim)
-        {
+
             horizontal = Input.GetAxis("Horizontal");
             vertical = Input.GetAxis("Vertical");
 
@@ -211,7 +238,7 @@ public class PlayerManager : MonoBehaviour
 
             //해당 방향으로 이동
             characterController.Move(moveDirection * moveSpeeed * Time.deltaTime);
-        }
+        
 
 
 
@@ -225,14 +252,13 @@ public class PlayerManager : MonoBehaviour
 
     void ThirdPersonMovement()
     {
-        if (!isAim)
-        {
+
             horizontal = Input.GetAxis("Horizontal");
             vertical = Input.GetAxis("Vertical");
 
             Vector3 move = transform.right * horizontal + transform.forward * vertical;
             characterController.Move(move * moveSpeeed * Time.deltaTime);
-        }
+
 
 
 
@@ -264,6 +290,10 @@ public class PlayerManager : MonoBehaviour
 
             cameraTransform.LookAt(playerLookObj.position + new Vector3(0.5f, thirdPersonOffset.y, 0));
         }
+        Vector3 rayDirection = cameraTransform.position - playerLookObj.transform.position;
+        Debug.DrawRay(playerLookObj.transform.position, rayDirection.normalized * rayDirection.magnitude, Color.red);
+
+
     }
 
     public void SetTargetDistance(float distance)
@@ -300,6 +330,15 @@ public class PlayerManager : MonoBehaviour
         mainCamera.fieldOfView = targetFov;
     }
 
+    public void WeaponChangeSoundOn()
+    {
+        audioSource.PlayOneShot(audioWeaponChange);
+    }
+
+    public void GunShootSoundOn()
+    {
+        audioSource.PlayOneShot(audioClipFire);
+    }
 
 
 }

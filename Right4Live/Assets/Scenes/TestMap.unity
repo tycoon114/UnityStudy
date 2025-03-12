@@ -582,6 +582,67 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.002769485, y: 0.028202556, z: 0.5631768}
     m_Extent: {x: 0.2828374, y: 0.18594435, z: 0.51537687}
   m_DirtyAABB: 0
+--- !u!1001 &83311189
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5542019324807113253, guid: 5d8638dbd45ae0441b4466640764edcb, type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7630655872096857421, guid: 5d8638dbd45ae0441b4466640764edcb, type: 3}
+      propertyPath: cameraTransform
+      value: 
+      objectReference: {fileID: 1701069145}
+    - target: {fileID: 8755260443529855281, guid: 5d8638dbd45ae0441b4466640764edcb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 73.26103
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755260443529855281, guid: 5d8638dbd45ae0441b4466640764edcb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 16.47741
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755260443529855281, guid: 5d8638dbd45ae0441b4466640764edcb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 132.18822
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755260443529855281, guid: 5d8638dbd45ae0441b4466640764edcb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755260443529855281, guid: 5d8638dbd45ae0441b4466640764edcb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755260443529855281, guid: 5d8638dbd45ae0441b4466640764edcb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755260443529855281, guid: 5d8638dbd45ae0441b4466640764edcb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755260443529855281, guid: 5d8638dbd45ae0441b4466640764edcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755260443529855281, guid: 5d8638dbd45ae0441b4466640764edcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755260443529855281, guid: 5d8638dbd45ae0441b4466640764edcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5d8638dbd45ae0441b4466640764edcb, type: 3}
 --- !u!1 &84766587
 GameObject:
   m_ObjectHideFlags: 0
@@ -757,12 +818,12 @@ GameObject:
   - component: {fileID: 177556776}
   - component: {fileID: 177556775}
   m_Layer: 8
-  m_Name: Player
+  m_Name: 11
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!143 &177556775
 CharacterController:
   m_ObjectHideFlags: 0
@@ -798,7 +859,7 @@ Animator:
   m_GameObject: {fileID: 177556774}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 0e55d5c42cc96404f872b45455603f8b, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: afb95477b5f739641a91bcf6adaac3ee, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -822,7 +883,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a84a21186dfaf6429bbfc3d8f0c60ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeeed: 4
   roateSpeed: 180
   mouseSensitivity: 100
   cameraTransform: {fileID: 1701069145}
@@ -837,6 +897,11 @@ MonoBehaviour:
   zoomFov: 30
   gravity: -9.81
   jumpHeight: 2
+  walkSpeed: 3
+  runSpeed: 7
+  audioClipFire: {fileID: 0}
+  RifleM4Obj: {fileID: 100000, guid: 7350c439920074a58a63ca710c013777, type: 3}
+  audioWeaponChange: {fileID: 0}
 --- !u!4 &177556778
 Transform:
   m_ObjectHideFlags: 0
@@ -9451,3 +9516,4 @@ SceneRoots:
   - {fileID: 1322238909}
   - {fileID: 956529544}
   - {fileID: 177556778}
+  - {fileID: 83311189}
