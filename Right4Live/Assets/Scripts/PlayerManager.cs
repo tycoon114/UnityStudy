@@ -74,12 +74,7 @@ public class PlayerManager : MonoBehaviour
         CameraControll();
         Gun();
         Run();
-
-
-
         AnimationControll();
-
-
 
         moveSpeeed = isRunning ? runSpeed : walkSpeed;
     }
