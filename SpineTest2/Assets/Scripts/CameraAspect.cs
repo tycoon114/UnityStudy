@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class CameraAspect : MonoBehaviour
 {
-    float targetAspect = 4f/3f;
+    float targetAspect = 4f / 3f;
     float initOrthographicSize;
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,11 +14,15 @@ public class CameraAspect : MonoBehaviour
     }
 
     // FixedUpdate is called once per frame
-    void FixedUpdate() {
-        float screenAspect = (float) Screen.width / (float) Screen.height;
-        if (targetAspect < screenAspect) {
+    void FixedUpdate()
+    {
+        float screenAspect = (float)Screen.width / (float)Screen.height;
+        if (targetAspect < screenAspect)
+        {
             Camera.main.orthographicSize = initOrthographicSize * (targetAspect / Camera.main.aspect);
-        } else {
+        }
+        else
+        {
             Camera.main.orthographicSize = initOrthographicSize;
         }
     }
