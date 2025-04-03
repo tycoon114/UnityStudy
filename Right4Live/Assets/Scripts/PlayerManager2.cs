@@ -308,7 +308,7 @@ public class PlayerManager2 : MonoBehaviour
     {
         animator.SetFloat("Horizontal", horizontal);
         animator.SetFloat("Vertical", vertical);
-        animator.SetBool("IsRunning", isRunning);
+        //animator.SetBool("IsRunning", isRunning);
     }
 
     void FirstPersonMovement()
