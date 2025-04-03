@@ -13,6 +13,7 @@ public class PlayerAnimation : MonoBehaviour
     public void TriggerAttack()
     {
         animator.SetTrigger("Attack");
+        SoundManager.Instance.PlaySFX(SFXType.SFX_Attack);
     }
 
     public void SetWalking(bool isWalking)
@@ -32,7 +33,7 @@ public class PlayerAnimation : MonoBehaviour
 
     public void PlayLanding()
     {
-        animator.SetTrigger("Land");
+        //animator.SetTrigger("Land");
         animator.SetBool("isJumping", false);
         animator.SetBool("isFalling", false);
     }

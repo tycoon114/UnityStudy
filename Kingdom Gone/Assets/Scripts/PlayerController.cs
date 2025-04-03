@@ -19,4 +19,17 @@ public class PlayerController : MonoBehaviour
         movement.HandleMovement();
         attack.PerformAttack();
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Coin"))
+        {
+            GameManager.Instance.AddCoin(10);
+            Destroy(collision.gameObject);
+        }
+        else if (collision.CompareTag("DeathZone"))
+        {
+
+        }
+    }
 }

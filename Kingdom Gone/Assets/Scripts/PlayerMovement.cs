@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -44,6 +45,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            SoundManager.Instance.PlaySFX(SFXType.SFX_Jump);
             playerAnimation.SetJumping(true);
             Debug.Log("점프 시작");
         }
@@ -51,13 +53,21 @@ public class PlayerMovement : MonoBehaviour
         else if (!isGrounded)
         {
             playerAnimation?.SetFalling(true);
+            Debug.Log("Falling");
         }
 
         else if (isGrounded) //착지상태
         {
             playerAnimation?.PlayLanding();
+            Debug.Log("Grounded");
         }
 
     }
 
+    public void WalkSound()
+    {
+        //만약 닿는 위치마다 소리를 다르게 넣고 싶다면 조건문과 RayCast 사용
+        SoundManager.Instance.PlaySFX(SFXType.SFX_Walk);
+
+    }
 }
