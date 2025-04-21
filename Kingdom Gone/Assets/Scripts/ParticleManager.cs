@@ -30,14 +30,14 @@ public class ParticleManager : MonoBehaviour
 
         foreach (var type in particlePrefabDic.Keys)
         {
-            Queue<GameObject> pool = new Queue<GameObject>();
-            for (int i = 0; i < poolSize; i++)
-            {
-                GameObject obj = Instantiate(particlePrefabDic[type]);
-                obj.SetActive(false);
-                pool.Enqueue(obj);
-            }
-            particlePools.Add(type, pool);
+            //Queue<GameObject> pool = new Queue<GameObject>();
+            //for (int i = 0; i < poolSize; i++)
+            //{
+            //    GameObject obj = Instantiate(particlePrefabDic[type]);
+            //    obj.SetActive(false);
+            //    pool.Enqueue(obj);
+            //}
+            //particlePools.Add(type, pool);
         }
     }
 
