@@ -8,8 +8,6 @@ public class GridPosition : MonoBehaviour
 
     private void OnMouseDown()
     {
-        Logger.Info("test1");
-        Logger.Warning("test2");
         GameManager.Instance.ProcessInput(_x, _y);
     }
 }
