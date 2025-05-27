@@ -17,16 +17,17 @@ public class GameManager : MonoBehaviour
         string path = Path.Combine(Application.persistentDataPath, "UserInventoryData.json");
 
         IUserInventoryDataRepository repo = new
-            TestUserInventoryDataRepository(path,items);
+            UserInventoryDataRepository(path);
 
-        InventoryService inventoryService = new InventoryService(repo);
+        IItemRepository itemRepos = new JsonItemRepository();
 
-        foreach (var item in repo.FindAll())
-        {
-            Debug.Log($"{item}");
-        }
+        InventoryService inventoryService = new InventoryService(repo , itemRepos);
 
-        repo.Save();
+        //foreach (var item in repo.FindAll())
+        //{
+        //    Debug.Log($"{item}");
+        //}
 
+        //repo.Save();
     }
 }

@@ -45,8 +45,9 @@ public class UserInventoryDataRepository : IUserInventoryDataRepository
 
     public UserInventoryDataRepository(string path)
     {
-        path = _path;
-        var modelList = JsonUtility.FromJson<UserInventoryDataModelList>(path);
+        _path = path;
+        string json = File.ReadAllText(_path);
+        var modelList = JsonUtility.FromJson<UserInventoryDataModelList>(json);
 
         _items = modelList.data
             .Select(modelList =>

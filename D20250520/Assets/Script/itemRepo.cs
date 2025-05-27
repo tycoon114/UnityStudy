@@ -1,6 +1,7 @@
 using UnityEngine;
 using System;
 using System.Collections.Generic;
+using System.Text;
 
 //사용할 아이템 객체 - > 도메인 객체나 엔터티라고도 한다.
 public enum ItemType
@@ -25,6 +26,7 @@ public enum ItemGrade
 }
 
 
+
 public sealed class Item
 {
     private int _id;
@@ -33,6 +35,18 @@ public sealed class Item
     private int _atk;
     private int _dfn;
     private string _name;
+
+    public int Id => _id;
+    public string GradePath => $"{_grade}";
+    public string IconPath
+    {
+        get
+        {
+            StringBuilder sb = new StringBuilder(_id.ToString());
+            sb[1] = '1';
+            return sb.ToString();
+        }
+    }
 
     public Item(int id, ItemType type, ItemGrade grade, int atk, int dfn, string name)
     {
@@ -101,6 +115,7 @@ public sealed class Item
 public interface IItemRepository
 {
     IReadOnlyList<Item> FindAll();
+    Item FindById(int id);
 }
 
 public class JsonItemRepository : IItemRepository
@@ -152,4 +167,10 @@ public class JsonItemRepository : IItemRepository
         }
 
     }
+
+    public Item FindById(int id)
+    {
+        return _items.Find(item => item.Id == id);
+    }
+
 }

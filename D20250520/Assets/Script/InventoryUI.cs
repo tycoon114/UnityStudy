@@ -13,24 +13,17 @@ public class InventoryUI : MonoBehaviour
 
         IUserInventoryDataRepository repo = new
             UserInventoryDataRepository(path);
+        IItemRepository itemRepos = new JsonItemRepository();
 
-        InventoryService inventoryService = new InventoryService(repo);
+        InventoryService inventoryService = new InventoryService(repo , itemRepos);
 
-        foreach (UserInventoryData item in inventoryService.Items)
+        foreach (var dataViewModel in inventoryService.FindAll())
         {
+            Sprite gradeBackSprite = Resources.Load<Sprite>($"Textures/Grade/{dataViewModel.GradeSpritePath}");
+            Sprite itemSprite = Resources.Load<Sprite>($"Textures/Item/{dataViewModel.ItemPath}");
 
-            //new InventoryItemSlotData()
-            //{ 
-            
-            //}
-
+            var slotData = new InventoryItemSlotData(gradeBackSprite, itemSprite);
+            _infinitiScroll.InsertData(slotData);
         }
-    }
-
-
-
-    void Update()
-    {
-
     }
 }
