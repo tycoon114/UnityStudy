@@ -1,14 +1,14 @@
-using UnityEngine;
-using System;
+ï»¿using System;
 using System.Collections.Generic;
 using System.Text;
+using TMPro.Examples;
+using UnityEngine;
 
-//»ç¿ëÇÒ ¾ÆÀÌÅÛ °´Ã¼ - > µµ¸ŞÀÎ °´Ã¼³ª ¿£ÅÍÆ¼¶ó°íµµ ÇÑ´Ù.
 public enum ItemType
 {
     None,
     Weapon,
-    Shield,
+    Sheild,
     ChestArmor,
     Gloves,
     Boots,
@@ -19,22 +19,21 @@ public enum ItemGrade
 {
     None,
     Common,
-    UnCommon,
+    Uncommon,
     Rare,
     Epic,
     Legendary
 }
 
-
-
+// ìš°ë¦¬ ê²Œì„ì—ì„œ ì‚¬ìš©í•  ì•„ì´í…œ ê°ì²´ => ë„ë©”ì¸ ê°ì²´ / ì—”í„°í‹°(Entity)
 public sealed class Item
 {
     private int _id;
+    private string _name;
     private ItemType _type;
     private ItemGrade _grade;
     private int _atk;
-    private int _dfn;
-    private string _name;
+    private int _def;
 
     public int Id => _id;
     public string GradePath => $"{_grade}";
@@ -48,44 +47,31 @@ public sealed class Item
         }
     }
 
-
-    public static int GetRandomItemId()
-    {
-        //(1~6) (1~5) +0~999
-        System.Random random = new System.Random();
-        int randomType = random.Next((int)ItemType.Weapon,(int)ItemType.Accessary +1);
-        int randomGrade = random.Next((int)ItemGrade.Common, (int)ItemGrade.Legendary + 1);
-        int randomId = random.Next(1,3);
-
-        return int.Parse($"{randomType}{randomGrade}{randomId:D3}");
-    }
-
-    public Item(int id, ItemType type, ItemGrade grade, int atk, int dfn, string name)
+    public Item(int id, string name, int atk, int def)
     {
         _id = id;
-        _atk = atk;
-        _dfn = dfn;
         _name = name;
+        _atk = atk;
+        _def = def;
 
-        _type = GetItemType(id);
+        _type = GetType(id);
         _grade = GetGrade(id);
-
     }
+
     public override string ToString()
     {
-        return $"Item(id: {_id}, name: {_name}, type: {_type}, grade: {_grade}, atk: {_atk}, def: {_dfn})";
+        return $"Item(id: {_id}, name: {_name}, type: {_type}, grade: {_grade}, atk: {_atk}, def: {_def})";
     }
 
-    private ItemType GetItemType(int id)
+    private ItemType GetType(int id)
     {
         int value = id / 10000;
-
         switch (value)
         {
             case 1:
                 return ItemType.Weapon;
             case 2:
-                return ItemType.Shield;
+                return ItemType.Sheild;
             case 3:
                 return ItemType.ChestArmor;
             case 4:
@@ -97,19 +83,17 @@ public sealed class Item
             default:
                 return ItemType.None;
         }
-
     }
 
     private ItemGrade GetGrade(int id)
     {
-        int value = id / 10000 % 1000;
-
+        int value = id % 10000 / 1000;
         switch (value)
         {
             case 1:
                 return ItemGrade.Common;
             case 2:
-                return ItemGrade.UnCommon;
+                return ItemGrade.Uncommon;
             case 3:
                 return ItemGrade.Rare;
             case 4:
@@ -118,31 +102,33 @@ public sealed class Item
                 return ItemGrade.Legendary;
             default:
                 return ItemGrade.None;
-
         }
     }
 }
 
-
 public interface IItemRepository
 {
     IReadOnlyList<Item> FindAll();
-    Item FindById(int id);
+    Item FindBy(int id);
 }
 
+// Item ê´€ë ¨ Persistencyë¥¼ ë‹´ë‹¹í•œë‹¤.
 public class JsonItemRepository : IItemRepository
 {
-
     private List<Item> _items;
+
     public JsonItemRepository()
     {
-        LoadJson();
-
+        _items = LoadItems();
     }
+
+    // ë°˜í™˜ íƒ€ì…
     public IReadOnlyList<Item> FindAll() => _items.AsReadOnly();
 
+    // DTO; Data Transfer Object
+    // ì™¸ë¶€ì™€ ì†Œí†µí•˜ê¸° ìœ„í•œ ê°ì²´. ì§ë ¬í™”ë§Œì„ ìœ„í•œ ê°ì²´. ë°ì´í„° ì „ì†¡ë§Œì„ ìœ„í•œ ê°ì²´
     [Serializable]
-    public class ItemModel
+    class ItemModel
     {
         public int item_id;
         public string item_name;
@@ -151,38 +137,28 @@ public class JsonItemRepository : IItemRepository
     }
 
     [Serializable]
-    class ItemList
+    class ItemModelList
     {
         public ItemModel[] data;
     }
 
-    //List<Item> = LoadItem()
-    void LoadJson()
+    List<Item> LoadItems()
     {
         TextAsset jsonFile = Resources.Load<TextAsset>("items");
         string json = jsonFile.text;
+        ItemModelList itemModelList = JsonUtility.FromJson<ItemModelList>(json);
 
-        ItemList itemList = JsonUtility.FromJson<ItemList>(jsonFile.text);
-
-        _items = new List<Item>(); // ¸®½ºÆ® Å¸ÀÔ ¼öÁ¤
-
-        foreach (ItemModel item in itemList.data) // º¯¼ö¸í ±×´ë·Î À¯Áö
+        var items = new List<Item>();
+        foreach (ItemModel itemModel in itemModelList.data)
         {
-            _items.Add(new Item(
-                item.item_id,
-                ItemType.None,
-                ItemGrade.None,
-                item.attack_power,
-                item.defense,
-                item.item_name
-            ));
+            items.Add(new Item(itemModel.item_id, itemModel.item_name, itemModel.attack_power, itemModel.defense));
         }
 
+        return items;
     }
 
-    public Item FindById(int id)
+    public Item FindBy(int id)
     {
         return _items.Find(item => item.Id == id);
     }
-
 }

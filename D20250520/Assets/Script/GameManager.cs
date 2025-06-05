@@ -4,30 +4,22 @@ using System.IO;
 
 public class GameManager : MonoBehaviour
 {
+    IInventoryService inventoryService;
+    [SerializeField] private InventoryUI _inventoryUI;
+
     void Start()
     {
-        List<UserInventoryData> items = new()
+
+
+    }
+
+    private void Update()
+    {
+        //스페이스 키를 누르면 랜덤 아이템 획득
+        if(Input.GetKeyDown(KeyCode.Space))
         {
-            UserInventoryData.Acquire(11001),
-            UserInventoryData.Acquire(12001),
-            UserInventoryData.Acquire(13001),
-            UserInventoryData.Acquire(14001),
-        };
-
-        string path = Path.Combine(Application.persistentDataPath, "UserInventoryData.json");
-
-        IUserInventoryDataRepository repo = new
-            UserInventoryDataRepository(path);
-
-        IItemRepository itemRepos = new JsonItemRepository();
-
-        InventoryService inventoryService = new InventoryService(repo , itemRepos);
-
-        //foreach (var item in repo.FindAll())
-        //{
-        //    Debug.Log($"{item}");
-        //}
-
-        //repo.Save();
+            inventoryService.AcquireRandomItem();
+            _inventoryUI.Refresh();
+        }
     }
 }

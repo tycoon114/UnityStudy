@@ -34,8 +34,8 @@ class UserInventoryDataModelList
 
 public interface IUserInventoryDataRepository
 {
-    IReadOnlyList<UserInventoryData> FindAll();
-    void Save();
+    Inventory Load();
+    void Save(Inventory inventory);
 }
 
 public class UserInventoryDataRepository : IUserInventoryDataRepository
@@ -54,55 +54,55 @@ public class UserInventoryDataRepository : IUserInventoryDataRepository
         UserInventoryDataModel.ToDomain(modelList)).ToList();
     }
 
-    public IReadOnlyList<UserInventoryData> FindAll()
-    {
-        throw new NotImplementedException();
-    }
-
     public void Save()
     {
-        throw new NotImplementedException();
-    }
-
-}
-
-//테스트 데이터를 위한 레포지토리 
-public class TestUserInventoryDataRepository : IUserInventoryDataRepository
-{
-
-    private List<UserInventoryData> _items;
-    public string _path;
-
-
-    public TestUserInventoryDataRepository(string path, List<UserInventoryData> items)
-    {
-        _path = path;
-        _items = items;
-    }
-
-    public IReadOnlyList<UserInventoryData> FindAll() => _items.AsReadOnly();
-
-
-    public void Save()
-    {
-        var modelList = new List<UserInventoryDataModel>();
-
-        foreach (var item in _items)
-        {
-            modelList.Add(new UserInventoryDataModel()
-            {
-                _serial_number = item.SerialNumber,
-                _item_id = item.ItemId,
-            });
-        }
-
+        // 1. json으로 변환
+        var modelList = _items
+            .Select(item => UserInventoryDataModel.From(item))
+            .ToList();
         var dto = new UserInventoryDataModelList()
         {
             data = modelList
         };
+        var json = JsonUtility.ToJson(dto);
 
-
-        string json = JsonUtility.ToJson(dto);
+        // 2. 파일입출력 라이브러리 사용해서 저장
         File.WriteAllText(_path, json);
     }
+
+    public Inventory Load()
+    {
+
+        if(false == File.Exists(_path))
+        {
+            return new Inventory(new List<UserInventoryData>());
+        }
+
+        string json = File.ReadAllText(_path);
+        var modelList = JsonUtility.FromJson<UserInventoryDataModelList>(json);
+
+
+        var userItems = modelList.data
+            .Select(model => UserInventoryDataModel.ToDomain(model))
+            .ToList();
+
+        return new Inventory(userItems);
+    }
+
+    public void Save(Inventory inventory)
+    {
+        //인벤토리를 파일로 저장
+                var modelList = inventory.Items
+            .Select(item => UserInventoryDataModel.From(item))
+            .ToList();
+        var dto = new UserInventoryDataModelList()
+        {
+            data = modelList
+        };
+        var json = JsonUtility.ToJson(dto);
+
+        // 2. 파일입출력 라이브러리 사용해서 저장
+        File.WriteAllText(_path, json);
+    }
+
 }
