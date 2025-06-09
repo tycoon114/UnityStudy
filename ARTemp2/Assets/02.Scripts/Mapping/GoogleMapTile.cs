@@ -1,6 +1,5 @@
-using FoodyGo.Services.GoogleMaps;
+ï»¿using FoodyGo.Services.GoogleMaps;
 using FoodyGo.Services.GPS;
-using FoodyGO.Mapping;
 using UnityEngine;
 
 namespace FoodyGo.Mapping
@@ -8,22 +7,22 @@ namespace FoodyGo.Mapping
     public class GoogleMapTile : MonoBehaviour
     {
         [Header("Map Settings")]
-        [Tooltip("ÁÜ ·¹º§")]
+        [Tooltip("ì¤Œ ë ˆë²¨")]
         [Range(1, 20)]
         public int zoomLevel = 15;
 
-        [Tooltip("¸Ê ÅØ½ºÃÄ »çÀÌÁî")]
+        [Tooltip("ë§µ í…ìŠ¤ì³ ì‚¬ì´ì¦ˆ")]
         [Range(64, 1024)]
         public int size = 640;
 
-        [Tooltip("¿ùµå ¸Ê ¿øÁ¡")]
+        [Tooltip("ì›”ë“œ ë§µ ì›ì ")]
         public MapLocation worldCenterLocation;
 
         [Header("Tile Settings")]
-        [Tooltip("Å¸ÀÏ¸µÀ» À§ÇÑ ¿ÀÇÁ¼Â")]
+        [Tooltip("íƒ€ì¼ë§ì„ ìœ„í•œ ì˜¤í”„ì…‹")]
         public Vector2Int tileOffset;
 
-        [Tooltip("¿ÀÇÁ¼Â Àû¿ëÇÑ ¸ÊÀÇ Áß½É À§Ä¡")]
+        [Tooltip("ì˜¤í”„ì…‹ ì ìš©í•œ ë§µì˜ ì¤‘ì‹¬ ìœ„ì¹˜")]
         public MapLocation tileCenterLocation;
 
         [Header("Map Services")]
@@ -64,7 +63,7 @@ namespace FoodyGo.Mapping
 
         public void RefreshMapTile()
         {
-            // ¿ÀÇÁ¼Â¿¡µû¸¥ Áß½ÉÀ§Ä¡ °è»ê
+            // ì˜¤í”„ì…‹ì—ë”°ë¥¸ ì¤‘ì‹¬ìœ„ì¹˜ ê³„ì‚°
             tileCenterLocation.latitude = GoogleMapUtils.AdjustLatByPixels(
                 worldCenterLocation.latitude,
                 (int)(size * tileOffset.y),
@@ -75,7 +74,7 @@ namespace FoodyGo.Mapping
                 (int)(size * tileOffset.x),
                 zoomLevel);
 
-            // ¸Ê ÅØ½ºÃÄ ¿äÃ»
+            // ë§µ í…ìŠ¤ì³ ìš”ì²­
             googleStaticMapService.LoadMap(tileCenterLocation.latitude,
                                            tileCenterLocation.longitude,
                                            zoomLevel,

@@ -1,14 +1,13 @@
-using FoodyGo.Services.GoogleMaps;
+ï»¿using FoodyGo.Services.GoogleMaps;
 using FoodyGo.Services.GPS;
-using FoodyGO.Mapping;
 using System.Collections;
 using UnityEngine;
 
 namespace FoodyGo.Mapping
 {
     /// <summary>
-    /// Maptile »ı¼º, °»½Å, Á¦°Å µîÀÇ °ü¸®
-    /// GPS µ¥ÀÌÅÍ°¡ ¹üÀ§¸¦ ¹ş¾î³¯¶§ Å¸ÀÏ¸Ê È®Àå ¹× ¹İ´ë¹æÇâ Å¸ÀÏ¸Ê »èÁ¦
+    /// Maptile ìƒì„±, ê°±ì‹ , ì œê±° ë“±ì˜ ê´€ë¦¬
+    /// GPS ë°ì´í„°ê°€ ë²”ìœ„ë¥¼ ë²—ì–´ë‚ ë•Œ íƒ€ì¼ë§µ í™•ì¥ ë° ë°˜ëŒ€ë°©í–¥ íƒ€ì¼ë§µ ì‚­ì œ
     /// </summary>
     public class GoogleMapTileManager : MonoBehaviour
     {
@@ -36,8 +35,8 @@ namespace FoodyGo.Mapping
         }
 
         /// <summary>
-        /// ÇöÀç GPS ±â¹İÀ¸·Î Áß½É Å¸ÀÏ ÀÎµ¦½º °è»ê
-        /// 3x3 ¹è¿­·Î MapTile µé »ı¼º
+        /// í˜„ì¬ GPS ê¸°ë°˜ìœ¼ë¡œ ì¤‘ì‹¬ íƒ€ì¼ ì¸ë±ìŠ¤ ê³„ì‚°
+        /// 3x3 ë°°ì—´ë¡œ MapTile ë“¤ ìƒì„±
         /// </summary>
         void InitializeTiles()
         {
@@ -47,7 +46,7 @@ namespace FoodyGo.Mapping
 
         void CreateTiles(Vector2Int center)
         {
-            // Áß½É ÀÎµ¦½º ±âÁØÀ¸·Î ¸ğµç ¹æÇâ Å¸ÀÏµé ÀÎµ¦½º °è»ê
+            // ì¤‘ì‹¬ ì¸ë±ìŠ¤ ê¸°ì¤€ìœ¼ë¡œ ëª¨ë“  ë°©í–¥ íƒ€ì¼ë“¤ ì¸ë±ìŠ¤ ê³„ì‚°
             for (int i = 0; i < TILE_OFFSETS.Length; i++)
             {
                 for (int j = 0; j < TILE_OFFSETS.Length; j++)
@@ -75,10 +74,10 @@ namespace FoodyGo.Mapping
         }
 
         /// <summary>
-        /// Å¸ÀÏ ÀÎµ¦½º·Î °ÔÀÓ¿ùµå Æ÷Áö¼Ç »êÃâ
+        /// íƒ€ì¼ ì¸ë±ìŠ¤ë¡œ ê²Œì„ì›”ë“œ í¬ì§€ì…˜ ì‚°ì¶œ
         /// </summary>
-        /// <param name="coord"> Å¸ÀÏ ÀÎµ¦½º </param>
-        /// <returns> ¿ùµå À§Ä¡ </returns>
+        /// <param name="coord"> íƒ€ì¼ ì¸ë±ìŠ¤ </param>
+        /// <returns> ì›”ë“œ ìœ„ì¹˜ </returns>
         Vector3 CalcWorldPosition(Vector2Int coord)
         {
             float spacing = 10;
@@ -87,23 +86,23 @@ namespace FoodyGo.Mapping
 
 
         /// <summary>
-        /// Æ¯Á¤ À§µµ,°æµµ¿¡ ÇØ´çÇÏ´Â MapTile ÀÇ ÀÎµ¦½º¸¦ °è»ê
+        /// íŠ¹ì • ìœ„ë„,ê²½ë„ì— í•´ë‹¹í•˜ëŠ” MapTile ì˜ ì¸ë±ìŠ¤ë¥¼ ê³„ì‚°
         /// </summary>
-        /// <param name="center"> MapTile À» ±×¸± À§µµ°æµµ Áß½É </param>
-        /// <returns> MapTile ÀÎµ¦½º </returns>
+        /// <param name="center"> MapTile ì„ ê·¸ë¦´ ìœ„ë„ê²½ë„ ì¤‘ì‹¬ </param>
+        /// <returns> MapTile ì¸ë±ìŠ¤ </returns>
         Vector2Int CalcTileCoordinate(MapLocation center)
         {
-            // ¸Ş¸£Ä«Åä¸£ ÇÈ¼¿ ÁÂÇ¥ (zoom = 21)
+            // ë©”ë¥´ì¹´í† ë¥´ í”½ì…€ ì¢Œí‘œ (zoom = 21)
             int pixelX21 = GoogleMapUtils.LonToX(center.longitude);
             int pixelY21 = GoogleMapUtils.LatToY(center.latitude);
 
-            // GoogleMap zoomlevel 1 ´ç 2¹è¾¿ °ªÀÌ ÀÛ¾ÆÁö±â¶§¹®¿¡ (°ø½Ä¹®¼­ÂüÁ¶)
-            // ZoomLevel Â÷ÀÌ¸¸Å­ ¿À¸¥ÂÊÀ¸·Î Bit-Shift ÇÏ¸é ¿øÇÏ´Â ÇÈ¼¿°ªÀ» ±¸ÇÒ¼öÀÖ´Ù.
+            // GoogleMap zoomlevel 1 ë‹¹ 2ë°°ì”© ê°’ì´ ì‘ì•„ì§€ê¸°ë•Œë¬¸ì— (ê³µì‹ë¬¸ì„œì°¸ì¡°)
+            // ZoomLevel ì°¨ì´ë§Œí¼ ì˜¤ë¥¸ìª½ìœ¼ë¡œ Bit-Shift í•˜ë©´ ì›í•˜ëŠ” í”½ì…€ê°’ì„ êµ¬í• ìˆ˜ìˆë‹¤.
             int shift = 21 - _gpsLocationService.mapTileZoomLevel;
             int pixelX = pixelX21 >> shift;
             int pixelY = pixelY21 >> shift;
 
-            // MapTile ´ç ÇÈ¼¿¼ö·Î ³ª´©¸é ÀÎµ¦½º ±¸ÇÒ¼öÀÖÀ½
+            // MapTile ë‹¹ í”½ì…€ìˆ˜ë¡œ ë‚˜ëˆ„ë©´ ì¸ë±ìŠ¤ êµ¬í• ìˆ˜ìˆìŒ
             return new Vector2Int(Mathf.FloorToInt(pixelX / (float)_gpsLocationService.mapTileSizePixels),
                                   Mathf.FloorToInt(pixelY / (float)_gpsLocationService.mapTileSizePixels));
         }
