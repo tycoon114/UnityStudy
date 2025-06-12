@@ -8,7 +8,7 @@ namespace FoodyGo.Services.GoogleMaps
     public class GoogleStaticMapService : MonoBehaviour
     {
         private const string BASE_URL = "https://maps.googleapis.com/maps/api/staticmap?";
-        private const string API_KEY = "AIzaSyDqYVb-C0TTNAtDfewlZKnMmqYql9nLDss";
+        private const string API_KEY = "AIzaSyDKHAFEMMC3LVLgfNTM4lP7SMQt9S3EwxU";
         private Texture2D _cachedTexture;
 
 
